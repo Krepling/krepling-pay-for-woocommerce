@@ -83,10 +83,37 @@ Privacy Policy:
 
 == Source Code ==
 
-This plugin includes generated or compressed front-end assets.
+This plugin includes generated, compressed, or bundled front-end assets.
 
-The public source repository for the plugin is:
-* https://github.com/Krepling/krepling-pay-for-woocommerce
+Public source repositories for bundled or generated assets used or shipped with this plugin:
+
+* Plugin source repository:
+  https://github.com/Krepling/krepling-pay-for-woocommerce
+
+* assets/js/colorPicker.js
+  Bootstrap Colorpicker source:
+  https://github.com/itsjavi/bootstrap-colorpicker
+
+* assets/js/utils.js
+  Google libphonenumber source:
+  https://github.com/google/libphonenumber
+
+* assets/vendor/intl-tel-input/js/intlTelInput.min.js
+  assets/vendor/intl-tel-input/js/utils.js
+  assets/vendor/intl-tel-input/css/intlTelInput.css
+  intl-tel-input source:
+  https://github.com/jackocnr/intl-tel-input
+
+* assets/js/inputmask.bundle.min.js
+  Inputmask source:
+  https://github.com/RobinHerbots/Inputmask
+
+* assets/js/slick.min.js
+  assets/css/slick.min.css
+  Slick Carousel source:
+  https://github.com/kenwheeler/slick
+
+Build and development files for this plugin are available in the public plugin repository listed above.
 
 == Installation ==
 
