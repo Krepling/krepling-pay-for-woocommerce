@@ -86,7 +86,7 @@ Privacy Policy:
 This plugin includes generated or compressed front-end assets.
 
 The public source repository for the plugin is:
-* https://github.com/krepling-inc/krepling-pay-for-woocommerce [**PLACEHOLDER**]
+* https://github.com/Krepling/krepling-pay-for-woocommerce
 
 == Installation ==
 
