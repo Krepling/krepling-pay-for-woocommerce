@@ -1,0 +1,1462 @@
+@media only screen and (min-width:1080px) and (max-width:1460px) and (orientation:landscape) {
+  #krepling_paymentgateway .payment-form .form-group {
+    margin-bottom: 15px;
+  }
+
+  #flipDivId, #panelproductId {
+    padding: 10px 10px;
+    border: 0;
+  }
+
+  .img-card1 {
+    position: absolute;
+    width: 45px;
+  }
+
+  .img-wrap .close {
+    width: 25px;
+    padding: 5px 5px;
+    font-size: 20px;
+    line-height: 0;
+    height: 25px;
+    right: 21px;
+  }
+
+  #AddAddressPopup .editbtn-dialog{
+	 top: 165px; 
+  }
+
+  .radio-new-button-animation input{
+	  top:12px;
+  }
+}
+
+@media only screen and (max-width:1366px) {
+	.logedIn_checkout{
+		height:100%;
+	}
+	
+  .modal-dialog.editbtn-dialog {
+    top: 43px;
+  }
+
+  .card-information {
+    width: 100%;
+  }
+
+ 
+  .modal-footer.add-btn-modelfooter button#btndOk {
+    margin: 19.65rem 0;
+  }
+
+  .card-margin-details {
+    margin-bottom: 13px;
+  }
+
+  .img-card1 {
+    bottom: 0;
+  }
+
+  .img-wrap .fnt15 {
+    margin-left: 11px;
+  }
+
+  .cart-1.shopping-card-icon.carddetails-page.images-shopping img {
+    margin-top: 4px;
+  }
+
+  .cart-1.carddetails-page.images-shopping {
+    margin-left: 21px;
+    margin-top: 0px;
+  }
+
+  .cart-1.shopping-card-icon img {
+    margin-left: 11px;
+  }
+
+  .quantity-1.quantity-2.card-right-detailsnum {
+    margin-right: 21px;
+  }
+}
+
+@media only screen and (max-width:1360px) {
+  .img-wrap .close {
+    width: 25px;
+    padding: 5px 8px;
+    font-size: 20px;
+    line-height: 0;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width:1280px) {
+#krepling_paymentgateway.card-1.checkout_popup .form-group,
+  #krepling_paymentgateway .payment-form .form-group {
+    margin-bottom: 21px;
+  }
+
+  .modal-footer.add-btn-modelfooter button#btndOk {
+    margin: 10.28rem 0;
+  }
+
+  .modal-content.addcard-content {
+    padding: 8px 55px 0;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:1079px) and (orientation:landscape) {
+  .checkout-delivery {
+    margin-bottom: 47px;
+  }
+
+  .img-wrap .close {
+    width: 25px;
+    padding: 5px 5px;
+    font-size: 20px;
+    line-height: 0;
+    height: 25px;
+  }
+
+  #loginDivId .form-control, .payment-form .form-control {
+    height: 35px;
+  }
+
+  #krepling_paymentgateway .currentbtn, #krepling_paymentgateway .currentbtn:focus {
+    width: 100%;
+    padding: 15px;
+  }
+
+  #krepling_paymentgateway .payment-form .form-group {
+    margin-bottom: 12px;
+  }
+
+  #flipDivId, #panelproductId {
+    border: 0;
+  }
+
+  .card-margin-details {
+    margin: auto;
+    margin-bottom: 19px;
+  }
+
+  .img-card1 {
+    position: absolute;
+    bottom: 10px;
+    width: 45px;
+  }
+
+  .card-cvv-style {
+    bottom: 81px;
+  }
+
+  .cart-1.shopping-card-icon img {
+    margin-left: 11px;
+  }
+
+
+  #AddAddressPopup .editbtn-dialog {
+    top: 160px;
+  }
+  
+  .radio-new-button-animation input{
+	  top:12px;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .heroSlider-fixed .next.slick-disabled {
+    visibility: visible;
+  }
+
+  #krepling_paymentgateway.card-1.checkout_popup {
+    overflow-y: auto;
+  }
+
+  .carddetails-address-infolist.d-flex.justify-content-between .icons-collapse i:not(.default-fav) {
+    visibility: visible;
+  }
+
+  .icons-collapse.d-flex .fa-pencil,
+  .icons-collapse.d-flex .fa-trash {
+    font-size: 18px;
+    color: #c4c4c4;
+    margin-right: 10px;
+  }
+
+  .next-prev-icon {
+    display: block !important;
+  }
+
+  #panelproductId table tr.total-row td {
+    padding: 0;
+  }
+
+  .content1 p {
+    font-size: 13px;
+  }
+
+  .form-group {
+    margin-bottom: 34px;
+  }
+
+  .heading-1.heading-2 a, .heading-1.heading-2 label {
+    font-size: 13px;
+  }
+
+  #krepling_paymentgateway .payment-form .form-control.card-input {
+    padding-left: 50px;
+  }
+
+  #panelproductId h3 {
+    font-size: 17px;
+  }
+
+  .currentbtn,
+  .currentbtn:focus {
+    margin: 20px 0;
+  }
+
+  .heroSlider-fixed {
+    overflow: hidden;
+    padding-right: 10px;
+  }
+
+  .next {
+    right: -8px;
+    font-size: 20px;
+  }
+
+  .prev {
+    left: -8px;
+    font-size: 20px;
+  }
+
+  .delivery-Address-content {
+    width: 70%;
+  }
+
+  .otp_verification .form-group.phone_add .form-control {
+    width: 81%;
+  }
+
+  #krepling_paymentgateway.card-1 {
+    padding: 55px;
+  }
+
+  .custom-control-label::after {
+    top: 3px;
+  }
+
+  .carddetails-address-infolist {
+    --w_icon_wrap: 95px;
+    --g_icon_wrap: 20px;
+  }
+
+  .radio-new-button-animation form label {
+    font-size: 12px;
+    margin-bottom: 12PX;
+  }
+
+  .radio-new-button-animation form span {
+    top: 13px;
+  }
+
+  .radio-new-button-animation form span {
+    left: 4px;
+  }
+
+  .modal-content.addcard-content {
+    padding: 55px;
+  }
+
+  .cart-1.shopping-card-icon img {
+    margin-left: 11px;
+  }
+
+ 
+  .carddetails-address-infolist.d-flex.justify-content-between .icons-collapse i:not(.default-fav) {
+    visibility: visible;
+  }
+
+  .modal-dialog.manage-dilvery {
+    padding: 68px 55px;
+  }
+}
+
+@media only screen and (max-width:481px) {
+  .editmodal .modal-dialog {
+    top: 266px;
+  }
+
+  div#stepFirstId {
+    margin-top: 6px;
+  }
+
+  div#divAddCardId {
+    width: 62%;
+  }
+
+  .width-card {
+    width: 245px;
+  }
+
+  .manage-dilvery-content.modal-content {
+    top: 211px;
+  }
+
+  .logedIn_checkout {
+    top: 258px;
+  }
+
+  .card-header2 {
+    padding-right: 26px;
+  }
+
+  .heading-1 h2 {
+    margin-top: 6px;
+  }
+
+
+  .card-header1 {
+    top: 126px;
+    padding: 30px;
+    padding-top: 32px;
+    height: 135px;
+    padding-right: 35px;
+  }
+
+  .heading-1 h2 {
+    font-size: 21px;
+    margin: 0;
+  }
+
+  #krepling_paymentgateway.card-1.checkout_popup {
+    padding: 25px;
+    height: 73vh;
+    position: fixed;
+    bottom: 0;
+  }
+
+  p.already-acnt {
+    font-size: 13px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+  }
+
+  .radio-new-button-animation form label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 200px!important;
+  }
+
+  .icons-collapse.d-flex {
+    margin-left: 0;
+  }
+
+  .next {
+    right: 18px;
+  }
+
+  #krepling_paymentgateway.card-1.checkout_popup {
+    padding: 25px;
+  }
+
+  .modal-dialog.manage-dilvery {
+    float: right;
+    width: 100%;
+    padding: 49px 18px 0 36px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .heading-1 h2 {
+    margin-top: 6px;
+  }
+
+  #filled-card.slick-slide {
+    width: 100% !important;
+    max-height: 200px;
+  }
+
+  #filled-card.slick-slide .width-card {
+    margin-right: 0;
+  }
+
+  button#load2 {
+    margin: 13px 0 0;
+    width: 100% !important;
+  }
+
+  .modal-footer.add-btn-modelfooter button#btndOk {
+    margin: 4rem 0 0 !important;
+    width: 100% !important;
+    height: 55px;
+  }
+
+  .modal-content.addcard-content {
+    padding: 15px !important;
+  }
+
+  .logedIn_checkout .delivery_address .panel-heading a svg {
+    font-weight: 100;
+    font-size: 35px;
+    top: 12px;
+	right:15px;
+  }
+
+  .flex-btn .btn {
+    padding: 10px 0;
+  }
+
+  .logedIn_checkout .img-wrap {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  #krepling_paymentgateway.card-1 {
+    padding: 20px;
+  }
+
+  .content1 p {
+    font-size: 13px;
+  }
+
+  .heading-1.heading-2 a,
+  .heading-1.heading-2 label {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+  .checkinform h4 {
+    font-size: 13px;
+  }
+
+  .checkout-card-head {
+    line-height: 3rem;
+  }
+
+  a.editbtn span,
+  a.showdelete span {
+    font-size: 17px;
+    color: #7700e2;
+  }
+
+  .editbtn {
+    margin: 0;
+    vertical-align: baseline;
+  }
+
+  .next-prev-icon {
+    display: none !important;
+  }
+
+  .prev.slick-disabled {
+    display: none !important;
+  }
+
+  .prev {
+    display: none !important;
+  }
+
+  #myModal-dialog {
+    width: 100%;
+  }
+
+  .countinue-1 {
+    margin-bottom: 0;
+  }
+
+  .custom-control-label::after {
+    top: 3px;
+  }
+
+  .modal-content.addcard-content.bbox {
+    position: relative;
+    height: fit-content;
+  }
+
+  .add-btn-addcard {
+    margin: 10rem 0;
+  }
+
+  .modal-content.addcard-content.bbox {
+    height: fit-content;
+  }
+
+  .text-right.countinue-1 {
+    padding: 0;
+  }
+
+  .panel-title>a,
+  .panel-title>a:active {
+    font-size: 15px;
+  }
+
+  button.btn.btn-primary.add-btn-addcard {
+    width: 100%;
+  }
+
+  .addcardmodel {
+    padding-left: 0 !important;
+  }
+
+  .modal-dialog.manage-dilvery {
+    padding: 88px 55px;
+  }
+
+  .slick-slide {
+    width: 152px !important;
+  }
+
+  h6#customerFullNameId1 {
+    bottom: 10px;
+    position: absolute;
+    font-size: 18px;
+  }
+
+  .img-wrap .fnt15 {
+    font-size: 16px;
+    font-weight: 300;
+    opacity: .9;
+  }
+
+  .card_design{
+    display:none;
+  }
+
+  .img-wrap #logo1 {
+    bottom: 8px;
+    left: unset;
+    right: 0;
+    width: 20%;
+    position: absolute;
+    top: auto;
+  }
+
+  .heroSlider-fixed .chip-card img {
+    width: 23px;
+    position: relative;
+    margin: unset !important;
+  }
+
+  .chip-card {
+    top: -12px!important;
+    transform: rotate(270deg);
+  }
+}
+
+@media only screen and (max-width:390px) {
+  .logedIn_checkout {
+    top: 254px;
+  }
+
+  div#stepSecondId {
+    margin-top: 20px;
+  }
+
+  div#stepFirstId {
+    margin-top: 6px;
+  }
+
+  .width-card {
+    width: 249px;
+  }
+
+  .manage-dilvery-content.modal-content {
+    top: 113px
+  }
+
+  .card-header1 {
+    height: 140px;
+    top: 108px;
+  }
+}
+
+@media only screen and (max-width:375px) {
+  div#divAddCardId {
+      width: 47%!important;
+  }
+ 
+  div#stepThirdId {
+    margin-top: 45px;
+  }
+
+  .panel-group {
+    padding-bottom: 1px;
+  }
+
+  .countinue-1 {
+    padding-bottom: 30px;
+  }
+
+  div#loginDivId .flex-btn{
+	margin-top: 2rem;  
+  }
+
+  .manage-dilvery-content.modal-content {
+    top: 111px;
+  }
+
+  .modal-dialog.manage-dilvery {
+    padding: 49px 18px 0 35px;
+  }
+
+  .logedIn_checkout {
+    top: 248px;
+  }
+
+  #stepThirdId .card-header2 {
+    top: 95px;
+    padding-right: 32px;
+  }
+
+
+  div#stepSecondId {
+    margin-top: 30px;
+    padding: 6px;
+  }
+
+  div#divAddCardId {
+      width: 49%;
+  }
+  .card-header1 {
+    top: 100px;
+  }
+
+  #krepling_paymentgateway.card-1.checkout_popup {
+    padding-bottom: 102px;
+    height: 69vh;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .heading-1 h2 {
+    margin: 0;
+    font-size: 21px;
+  }
+
+  div#logo {
+    top: 10px;
+  }
+
+  #krepling_paymentgateway.card-1.checkout_popup {
+    padding-bottom: 40px;
+	  padding-top:unset;
+  }
+
+  .radio-new-button-animation form span {
+    left: 4px;
+  }
+
+  .checkinform h4 {
+    font-size: 17px;
+  }
+  .checkinform .switch {
+    width: 115px!important;
+  }
+}
+
+@media only screen and (max-width:360px) {
+  .modal-dialog.editbtn-dialog {
+    top: 244px;
+  }
+
+  .address-form2 .city1,
+  .country1 {
+    max-width: 144px;
+  }
+
+  div#divAddCardId {
+    width: 40% !important;
+    height: 136px;
+  }
+
+  .width-card {
+    width: 240px !important;
+    height: 137px;
+  }
+
+  input#btnbackId {
+    width: 135px;
+  }
+
+  input#loginSubmit {
+    width: 135px;
+  }
+
+  div#loginDivId {
+    margin-top: 0;
+  }
+
+  .card-header1 {
+    height: 131px;
+    top: 104px;
+    padding-right: 37px;
+  }
+
+  #stepThirdId .card-header2 {
+    top: 77px;
+    padding-right: 32px;
+  }
+
+  .logedIn_checkout {
+    top: 258px !important;
+  }
+
+  div#stepFirstId {
+    margin-top: 6px;
+  }
+
+  @-moz-document url-prefix() {
+    div#stepFirstId {
+      margin-top: 0;
+    }
+
+    #krepling_paymentgateway.card-1.checkout_popup {
+      height: 70vh;
+    }
+  }
+
+  div#stepSecondId {
+    margin-top: 16px;
+  }
+
+  div#SMSArea .code-col input {
+    height: 55px;
+  }
+
+  .carddetails-address-infolist {
+    --w_icon_wrap: 89px;
+    --g_icon_wrap: 11px;
+  }
+
+  .icons-collapse.d-flex .fa-pencil,
+  .icons-collapse.d-flex .fa-trash {
+    margin-right: 10px;
+  }
+
+  p.already-acnt {
+    font-size: 11px;
+  }
+
+  .icons-collapse.d-flex {
+    width: 27%;
+    align-items: inherit;
+  }
+
+  .radio-new-button-animation form label {
+    font-size: 12px;
+    margin-bottom: 12PX;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .width-card {
+    width: 281px;
+  }
+  .card-header2 {
+    top: 154px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation :portrait) {
+  #krepling_paymentgateway.card-1.checkout_popup {
+    padding-top: 63px;
+  }
+
+  #krepling_paymentgateway.card-1.checkout_popup {
+    padding-top: 36px;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width:576px) and (orientation :portrait) {
+  .card-header2 {
+    top: 170px;
+  }
+}
+
+@media only screen and (min-width:390px) {
+  .card-header2 {
+    top: 76px;
+  }
+}
+
+@media only screen and (min-width:414px) {
+  .card-header2 {
+    top: 131px;
+  }
+}
+
+@media only screen and (min-width:412px) {
+  .card-header2 {
+    top: 131px;
+  }
+}
+
+@media only screen and (min-width:540px) and (max-width:720px) and (orientation :portrait) {
+  #krepling_paymentgateway.card-1.checkout_popup {
+    height: 68vh;
+    bottom: 0;
+  }
+
+  .card-header2 {
+    top: 147px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+@media screen and (min-width:667px) {
+  .card-header2 {
+    top: 167px;
+  }
+}
+
+@media only screen and (min-width :768px) and (max-width :1024px) and (orientation :landscape) {
+  form#address-form {
+    margin-bottom: 4px;
+  }
+
+  .checkout-delivery {
+    margin-bottom: 47px;
+  }
+
+  #krepling_paymentgateway.card-1.checkout_popup {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+	#loginDivId .form-group {
+    margin-bottom: 21px;
+  }
+	#krepling_paymentgateway.card-1.checkout_popup{
+	  padding-top:unset;
+	}
+
+  .card-header2 {
+    top: 105px;
+    padding-right: 35px;
+    padding-left: 29px;
+  }
+
+  .checkout_wraper {
+    position: fixed;
+  }
+
+  .panel.panel-default {
+    min-height: 88px;
+    overflow: scroll;
+  }
+
+  .card-header1, .card-header2.card3 {
+    position: sticky;
+    top: 0 !important;
+    padding: unset;
+    border-radius: unset;
+    padding-block-start: 25px;
+    z-index: 9999;
+  }
+
+  #krepling_paymentgateway.card-1.checkout_popup,
+  .logedIn_checkout {
+    border-radius: 42px 42px 0 0;
+    height: auto;
+    max-height: 76vh;
+  }
+
+  .card-1,
+  #krepling_paymentgateway.card-1.checkout_popup:has(.card-header1) {
+    padding-block-start: 0 !important;
+    bottom: 0;
+  }
+
+  div#stepSecondId {
+    padding: unset;
+  }
+
+  #rightArrow{
+    flex-direction: column;
+  }
+
+  #commonbtn {
+    display: block;
+    margin: 0 auto !important;
+    top: 0;
+    float: unset !important;
+  }
+
+  .card-header6 {
+    position: sticky;
+    top: 0 !important;
+    padding: unset;
+    border-radius: unset;
+    padding-block-start: 25px;
+    z-index: 1;
+    background: var(--kp-background-color);
+    left: 0;
+    width: 100%;
+  }
+
+  #commonsubmit {
+    display: block;
+    margin: 0 auto !important;
+    top: 0;
+    float: unset !important;
+  }
+
+  .authentication-email {
+    margin-left: 0;
+  }
+
+  .whereloginmsg p {
+    font-size: 12px;
+  }
+
+  .backBtn-change {
+    justify-content: center !important;
+  }
+
+  #resetbtn {
+    width: 100%;
+  }
+
+  .modal-dialog.setCenter {
+    height: unset;
+    bottom: 0;
+    position: fixed;
+    top: auto;
+    border-radius: 42px 42px 0 0;
+    padding-top: 0;
+  }
+
+  .modal-content.addcard-content.bbox {
+	  padding-top: unset !important;
+    border-radius: 42px 42px 0 0;
+  }
+
+  form#address-form .fillcountry {
+    width: 109px;
+  }
+
+  i.fa.fa-angle-left.backIcon {
+   
+    top: 2px;
+  }
+
+  .backBtn {
+    display: block;
+	  text-align:center;
+  }
+
+  .bottomfix {
+    background: var(--kp-background-color);
+  }
+
+  .svglogo {
+    text-align: center;
+  }
+
+  .card-header2.card3 {
+    height: 147px;
+	box-shadow:-5px 0px 5px 0px white, 5px 0px 5px 0px white
+  }
+
+  .iti--allow-dropdown .iti__flag-container,
+  .iti--separate-dial-code .iti__flag-container {
+    left: -3px !important;
+  }
+
+  #stepFirstId .shopping-card-icon p {
+    font-size: 18px;
+  }
+
+  button.btn.btn-info.update-btn-edit {
+    border-radius: 39px;
+    height: 45px;
+  }
+
+  button#editaddressbtn {
+    border-radius: 39px;
+  }
+
+  .iti__selected-flag {
+    padding: 0 6px 0 8px !important;
+  }
+
+  input#btnbackId {
+    margin: 0;
+    width: 150px;
+    border-radius: 39px;
+  }
+
+  .modal-dialog.editbtn-dialog {
+    width: 92% !important;
+    left: -6px;
+    right: 0 !important;
+    top: 287px !important;
+  }
+
+  div#flipDivId {
+    padding-right: 18px;
+  }
+
+  label#lblAmountId {
+    font-size: 20px;
+  }
+
+  .cart-1 span {
+    font-size: 20px;
+  }
+
+  .cart-1.shopping-card-icon img {
+    margin-left: 0;
+    margin-right: 8px;
+  }
+
+  .quantity-1 {
+    margin-right: 0;
+  }
+
+  .editmodal .modal-dialog {
+    width: 92%;
+    float: right;
+    right: 8px;
+    top: 228px;
+  }
+
+  button.btn.btn-secondary.manage-dilvery-footer {
+    border-radius: 39px;
+  }
+
+  .manage-dilvery-content.modal-content {
+    top: 70px;
+  }
+
+  div#addcard {
+    height: 100vh;
+    top: 77px;
+  }
+
+  #krepling_paymentgateway .pay-button {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        margin-top: 15px;
+        width: 66%;
+  }
+
+  .checkinform {
+    justify-content: space-between;
+  }
+
+  .accordion .link {
+    font-size: 16px;
+  }
+
+  .accordion li i.rotatearrow {
+    font-size: 13px;
+    right: 10px;
+    top: 2px;
+  }
+
+  .accordion {
+    left: 8px;
+    top: 0;
+  }
+
+  .submenu {
+    font-size: 13px;
+    top: 25px;
+    height: auto;
+    margin-right: 12px;
+  }
+
+  .star .fa-star {
+    font-size: 13px;
+  }
+
+  .heading-1 h2 {
+    margin-top: 6px;
+	font-weight:800;
+	font-size:21px;
+  }
+
+  input#loginSubmit {
+    width: 233px;
+    display: block;
+    margin: 0 auto !important;
+    float: none;
+    margin: 0;
+  }
+
+  .heroSlider-fixed img.img-card1 {
+    position: absolute;
+    bottom: 5px;
+    left: 4px;
+    max-width: 26%;
+    width: auto;
+    height: auto;
+  }
+
+  .heroSlider-fixed {
+    padding-right: 16px !important;
+    padding-left: 18px !important;
+  }
+
+  #krepling_paymentgateway button#load2 {
+    display: block;
+    margin: 0 auto !important;
+    float: unset;
+    border-radius: 30px;
+    width: 177px!important;
+  }
+
+  .modal-dialog.setCenter {
+    width: 100%;
+  }
+
+  .checkout_slider .slick-slide {
+	  margin-left: 0 !important;
+  }
+
+  .logedIn_checkout {
+    max-height: unset;
+  }
+
+  div#divAddCardId {
+    height: 151px;
+  }
+
+  div#divAddCardId {
+	  width: calc(100vw - (262px + (20px * 2)));
+  }
+
+  .card-header2 {
+    position: fixed;
+    top: 72px;
+    background-color: var(--kp-background-color);
+    width: 100%;
+    left: 0;
+    border-radius: 42px 42px 0 0;
+    padding: 23px;
+    padding-top: 30px;
+    z-index: 999999;
+    height: 140px;
+    padding-right: 31px;
+  }
+
+  .card-header3 {
+    position: fixed;
+    background-color: var(--kp-background-color);
+    width: 100%;
+    left: 0;
+    border-radius: 42px 42px 0 0;
+    padding: 30px;
+    height: 140px;
+  }
+
+  .modal-dialog.setCenter {
+    border-radius: 42px 42px 0 0;
+  }
+
+  .addcard-body {
+    padding-right: 9px;
+        padding-left: 10px;
+        margin-top: 149px;
+        margin-bottom: 0px;
+  }
+
+  button#btnAddCard {
+    font-size: 21px;
+    width: 233px !important;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    height: 55px;
+    border-radius: 50px;
+  }
+
+  .checkout_popup .heading-1 {
+    padding-bottom: 10px;
+  }
+
+  .box {
+    padding-top: 0;
+  }
+
+  div#SMSArea {
+    display: flex;
+    justify-content: flex-start;
+	margin-left:unset;
+  }
+
+  input#btnSecondStep {
+    width: 233px !important;
+    height: 55px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .card-header1 {
+    top: 77px;
+    left: 0;
+    width: 100%;
+    background: var(--kp-background-color);
+    height: 124px;
+	  box-shadow: -5px 0px 9px 0px white, 5px 0px 9px 0px white;
+  }
+
+  input#btnFirstStep {
+    width: 233px;
+    float: none;
+    font-size: 21px;
+    height: 55px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto !important;
+  }
+
+  .modal-dialog.setCenter {
+    right: 0;
+    width: 100%;
+  }
+
+  .modal-dialog.manage-dilvery {
+    width: 100%;
+  }
+
+  .modal-content.addcard-content.bbox {
+    height: unset;
+	min-height: 57vh;
+  }
+
+  div#AddAddressPopup {
+    width: 100%;
+	z-index:9999;
+  }
+
+  #SMSArea .code-col {
+    margin: 3px;
+    margin-left: 0;
+  }
+
+  .img-wrap .close {
+    opacity: 1;
+  }
+
+  .logedIn_checkout .img-wrap {
+    position: relative;
+    display: inline-block;
+  }
+
+  .next,
+  .prev {
+    display: none !important
+  }
+
+  #logo {
+    bottom: 4px;
+  }
+
+  .close-card-alignment {
+    margin-right: 10px;
+  }
+
+  .img-wrap .close {
+    width: 22px;
+    padding: 4px;
+    font-size: 16px;
+    line-height: 0;
+    height: 22px;
+	  left:0;
+  }
+
+  .checkout_wraper {
+    width: 100%;
+  }
+
+  #krepling_paymentgateway.card-1.checkout_popup {
+    width: 100%;
+  }
+
+  .modal-dialog.manage-dilvery {
+    max-width: 100%;
+  }
+
+  .checkout_wraper {
+    opacity: 1;
+  }
+
+  .card-margin-details#spanExpiryDate1 {
+    font-size: 16px;
+    right: 20px;
+  }
+
+  #krepling_paymentgateway .width-card {
+    position: relative;
+    width: 227px;
+    height: 151px;
+    background-position: 10px;
+    background-size: 125px;
+    border-radius: 10px;
+  }
+  
+  .width-card:before{
+	clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);  
+  }
+
+  .card-top {
+    position: absolute;
+    bottom: 0;
+    padding: 4px;
+  }
+
+  #stepThirdId .otp_verification {
+    margin-top: 41px;
+  }
+
+  #divAddCardId .card-top.text-center {
+    top: 37%;
+  }
+
+  .card-info-1.form-bg input {
+    font-size: 13px;
+    padding-left: 44px;
+  }
+
+  .card-info-2.form-bg input {
+    font-size: 13px;
+  }
+
+  .card-number-card2 {
+    left: 10px;
+    font-size: 12px !important;
+    color: var(--kp-text-color);
+  }
+  
+  .change_phonenumber_otp_page{
+	  padding-bottom:30px;
+  }
+  .change_phonenumber_page{
+	  padding-bottom:15px;
+  }
+  
+  .change_emailaddress_page{
+	padding-bottom:15px;  
+  }
+  
+  .change_emailaddress_otp_page{
+	 padding-bottom:30px;  
+  }
+
+  .authentication-verified a{
+    margin-left:0px;
+  }
+
+  .reviewdevice-group p{
+      word-break: break-all;	
+  }
+  span.authentication-verified {
+      margin-left:10px;
+  }
+  .card-info-2 {
+      width: 48%;
+  }
+  .card-info-3 {
+      width: 49%;
+  }
+
+  .card-info-1 {
+      width: 100%;
+	  margin-bottom: 10px;
+  }
+  .card-information{
+	      flex-wrap: wrap;
+		  margin-bottom: 10px;
+  }
+	
+  .card-info-1 input#card {
+      padding-left: 45px;
+      padding-right: 11px;
+  }
+
+	.phone-verification-code{
+    margin-left: unset;	
+  }
+	.emailverification-code{
+    margin-left: unset;	
+  }
+	.card-top h6{
+		width:unset;
+	}
+  .phone-verification-code input{
+    height:72px;
+  }	
+  .SMSArea-code input{
+    height:72px;	
+  }
+  .smsCode{
+    height:72px;	
+  }
+  
+  .card3 .card-svg{
+	  text-align:center;
+  }
+  
+  #krepling_paymentgateway .company_logo h6{
+   position: absolute;
+        left: 154px;
+        top: 4px;
+        width: 69px;
+  }
+  .company_logo{
+    padding-top: 11px; 
+    flex-direction: row-reverse; 
+  }
+
+  .add_additional_shippingAddress{
+      margin-top: -17px;	
+  }
+
+  .card-margin-details {
+      margin-bottom: 31px;
+  }
+
+  .card_exp_group {
+      position: absolute;
+      right: 10px;
+      bottom: -19px;
+  }
+  .card_design_mobile{
+    display: block;
+    position: absolute;
+    left: -1px;
+    bottom: -3px;
+  }
+  .checkinform .switch{
+    width: 77px;
+  }
+  .active_card{
+    position: relative;
+  }
+  .quantity-1 .rotate{
+	    right: 0px;
+  }
+  .cardcvv{
+    margin: 0 auto;
+  }
+  .productQuantity{
+	 padding: 6px 8px 6px 8px; 
+  }
+  
+}
+
+@media only screen and (min-width :768px){
+ .modal-dialog.setCenter {
+         width: unset; 
+    }
+}

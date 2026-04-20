@@ -1,0 +1,1305 @@
+/* Animations, transitions, radio effects, and motion helpers
+ * Auto-extracted from legacy krepling-style.css during stylesheet refactor.
+ */
+
+/*animation effect*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn;
+  animation: fadeIn;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    transform: scale(1.1);
+    opacity: 0.5;
+    margin-left: 20px;
+  }
+
+  100% {
+    transform: scale(0.99);
+    opacity: 1;
+  }
+}
+
+.zoom {
+  -webkit-animation: zoom;
+  animation: zoom;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn;
+  animation: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+a.editbtn span,
+a.showdelete span {
+  font-size: 20px;
+  color: #c3c3c3 !important;
+}
+
+#krepling_paymentgateway label#lblAmountId {
+  font-size: 21px;
+  color: var(--kp-text-color);
+  cursor: pointer;
+  margin: 0;
+  font-weight: 700;
+  margin-left: 4px;
+  margin-bottom: 0px !important;
+  font-family: PPRadioGrotesk-Bold;
+}
+
+.iti__flag {
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+  border-radius: 2px;
+}
+
+.iti--container {
+  width: auto !important;
+  z-index: 999999;
+}
+
+.iti__country-list {
+  position: relative !important;
+  max-height: 280px !important;
+  width: 55% !important;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-x: hidden;
+}
+
+.iti__country-list::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+.iti__country-list::-webkit-scrollbar {
+  width: 3px;
+  background-color: #F5F5F5;
+}
+
+.iti__country-list::-webkit-scrollbar-thumb {
+  background-color: #AAAAAA;
+  border: 3px solid #AAAAAA;
+}
+
+#stepThirdId h5 {
+  margin-top: 0em;
+  margin-bottom: 2rem;
+  font-size: 13px;
+  text-transform: inherit;
+  font-weight: 400;
+  color: var(--kp-text-color);
+}
+
+.otp_verification .email_add label {
+  display: block;
+  margin-bottom: 0;
+}
+
+.otp_verification .email_add {
+  margin-bottom: 16px;
+}
+
+.otp_verification .form-group.phone_add .form-control {
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  display: block;
+  width: 85%;
+  padding: 0;
+}
+
+a#anchorEidtMobileNumberId {
+  text-align: right;
+  margin-top: 0px;
+  color: var(--kp-text-color);
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 14px;
+  float: right;
+}
+
+#sendEmailForVerificationId{
+    margin-top: 15px;	
+}
+
+.form-group.phone_add {
+  border-bottom: 2px solid var(--kp-input-color);
+  width: 233px;
+  padding-bottom: 20px;
+}
+span#display_mobile {
+    font-size: 13px;
+    font-weight: 300;
+    font-family: PPRadioGrotesk-Light;
+	color: var(--kp-text-color);
+}
+
+span#display_email {
+font-size: 13px;
+font-weight: 300;
+font-family: PPRadioGrotesk-Light;
+
+}
+.otp_verification .phone_add label {
+  display: block;
+}
+
+.otp_verification .rounded-lg {
+  border-radius: 10px !important;
+  background: var(--kp-input-color);
+  box-shadow: none !important;
+  border: 0;
+  color: var(--kp-text-color);
+}
+
+#SMSArea .code-col {
+  margin: 5px;
+}
+
+a.changeBtnStatusId {
+  font-size: 13px;
+  color: var(--kp-button-color);
+  font-weight: 300;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+a.changeBtnStatusId strong{
+	font-weight:700;
+	font-size:13px;
+	color:var(--kp-text-color);;
+	margin-right: 3px;
+	font-family: 'PPRadioGrotesk-Bold';
+}
+
+a#SpanInvalidId {
+  font-size: 15px;
+  color: #000 !important;
+}
+
+
+
+a#SpanInvalidId {
+  font-size: 15px;
+  color: #000 !important;
+}
+
+label#emailAddress2 {
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.otp_verification .form-group.phone_add .form-control:hover {
+  box-shadow: none;
+}
+
+.iti__selected-flag {
+  border-right: 3px solid #fffcfc;
+  z-index: 9;
+  width: 100% !important;
+  height: 15px !important;
+  display: flex;
+  justify-content: center;
+  top: 7px;
+}
+
+.iti__selected-flag {
+  padding: 0 12px 0 20px !important;
+}
+
+.iti--allow-dropdown .iti__flag-container,
+.iti--separate-dial-code .iti__flag-container {
+  right: auto;
+  left: 0;
+}
+
+.iti__flag-container {
+  top: 1px !important;
+  padding: 1px !important;
+}
+
+.intl-tel-input .selected-flag {
+  width: 52px !important;
+}
+
+.iti__flag-box,
+.iti__country-name,
+.iti__dial-code {
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.iti__selected-flag {
+  background: transparent !important;
+}
+
+.btn:focus,
+.btn:active {
+  box-shadow: none !important;
+}
+
+.checkout-card-head {
+  display: flex;
+  align-items: center;
+}
+
+.pannel-carddetails-sec {
+  border: 5px;
+  border-radius: 6px;
+  z-index: 0;
+  position: relative;
+  background:var(--kp-input-color);
+}
+
+
+#BacktoRegisterbtn {
+  float: left;
+  margin-top: 24px;
+  padding-left: 82px;
+  padding-right: 82px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.cart-1 {
+  display: flex;
+  align-items: center;
+}
+
+.heroSlider-fixed {
+  padding-right: 0px;
+  padding-left: 0px;
+  float:unset;
+}
+
+#krepling_paymentgateway .heroSlider-fixed img.img-card1 {
+  width: 50px;
+  height: auto;
+  max-height: 50px;
+}
+
+#krepling_paymentgateway .chip-card {
+  z-index: 999999999;
+  position: absolute;
+  top: 48px;
+  right: 2px;
+  width: 25%;
+}
+
+.modal-dialog.setCenter {
+  margin: 0px 0px;
+  float: right;
+  max-width: 610px;
+  position: fixed;
+}
+
+span#spanDeliveryAddress {
+  display: block !important;
+}
+
+.modal-dialog.manage-dilvery {
+  float: right;
+  padding: 68px 55px;
+}
+
+button.btn.btn-secondary.manage-dilvery-footer {
+  background: #7700e2;
+}
+
+button.btn.btn-primary.manage-dilvery-button {
+  background: none;
+  color: #7700e2;
+  outline: 0;
+  border: 0;
+  float: right;
+  padding: 0 0 0 0;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 34px;
+}
+
+.modal-content {
+  border: 0;
+box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 0.18);
+
+}
+
+.manage-dilvery-body.modal-body {
+  height: 315px;
+  overflow-x: auto;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  color: #7700e2;
+  background: transparent;
+  border-color: unset !important;
+}
+
+.form-group.fade-in.form-bg input {
+  width: 100%;
+  background: var(--kp-input-color);
+  border: 0;
+color: var(--kp-text-color);
+  box-shadow: none;
+  outline: none;
+  height: 34px;
+  margin: 0px;
+  font-size: 13px;
+  font-family: PPRadioGrotesk-Light;
+  font-weight: 300;
+}
+
+.form-group.fade-in.form-bg input:focus {
+  box-shadow: 0px 3px 5px 1px #ccc;
+  transition: 0.3s ease-in-out;
+}
+
+.card-info-1.form-bg input {
+  width: 100%;
+  background: #EFEFEF;
+  border: 0;
+  color: #000;
+  box-shadow: none;
+  outline: none;
+  height: 34px;
+  margin: 0px;
+  padding-left: 48px;
+  font-family: PPRadioGrotesk-Light;
+}
+
+.card-info-2.form-bg input {
+  width: 100%;
+  background: #EFEFEF;
+  border: 0;
+  color: #000;
+  box-shadow: none;
+  outline: none;
+  height: 34px;
+  margin: 0px;
+  font-family: PPRadioGrotesk-Light;
+}
+
+.card-info-3.form-bg input {
+  width: 100%;
+  background: #EFEFEF;
+  border: 0;
+  color: #000;
+  box-shadow: none;
+  outline: none;
+  height: 34px;
+  margin: 0px;
+  font-family: PPRadioGrotesk-Light;
+}
+
+button.close.customClose {
+  outline: none;
+}
+
+.modal-footer.add-btn-modelfooter {
+  border: 0;
+  padding: 0;
+}
+
+.add-card-svg svg {
+  fill: #7700e2;
+  width: auto;
+  height: 37px;
+}
+
+.modal-content.addcard-content {
+  padding: 55px;
+}
+
+.modal-body.addcard-body {
+  padding: 1rem 0;
+}
+
+.modal-header.modalheaderBg {
+  padding: 0;
+  border-bottom: 2px solid var(--kp-input-color);
+  width: 98%;
+  margin: auto;
+}
+
+.addcard-heading h2 {
+  font-size: 21px;
+ color: var(--kp-button-color);
+  display: flex;
+  align-items: center;
+  font-family: 'PPRadioGrotesk-Regular';
+  font-weight: 400;
+  cursor:pointer;
+}
+
+.modal-footer.add-btn-modelfooter button#btndOk {
+  margin: 15rem 0;
+  width: 47%;
+  height: 55px;
+}
+
+.modal-footer.add-btn-modelfooter button#btndOk:hover {
+  background: #6e00c9 !important;
+  border: 0 !important;
+}
+
+.addcard-heading i.fa.fa-angle-left {
+  font-size: 27px;
+  margin: 0 7px 0px 0;
+  cursor:pointer;
+  vertical-align: middle;
+}
+
+.panel-heading {
+  padding: 0;
+  border: 0;
+}
+
+.panel-title>a,
+.panel-title>a:active {
+  display: block;
+  padding: 15px;
+  color: #555;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-decoration: none;
+}
+
+.panel-heading a svg {
+  transition: all 0.5s;
+}
+
+.panel-heading.active a svg {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.logedIn_checkout .delivery_address .panel-heading a {
+  position: relative;
+  text-decoration: none;
+}
+
+.logedIn_checkout .delivery_address .panel-heading a svg {
+  right: 10px;
+  position: absolute;
+}
+
+.panel-title>a,
+.panel-title>a:active {
+  padding: 20px 0 0;
+  text-transform: none;
+  color: var(--kp-text-color);
+  letter-spacing: 0;
+}
+
+.panel-title a.collapsed {
+  padding: 20px 0 0;
+  text-transform: none;
+  color: #000;
+  letter-spacing: 0;
+}
+
+.add-delivery-withplus span {
+  color: #7e00e3;
+}
+
+.add-delivery-withplus input {
+  color: #7e00e3;
+}
+
+.filladdress-input {
+  margin-bottom: 21px !important;
+}
+
+input#btnSecondStep {
+  width: 233px !important;
+  font-size: 21px !important;
+}
+
+.card-svg svg {
+  fill: #7700e2;
+  width: auto;
+  height: 37px;
+}
+
+.card-header-logout {
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid var(--kp-input-color);
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.heading-1.heading-2.align-items-center.card-heading-list {
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+button.close.customClose {
+  color: #000;
+}
+
+span#AddressdeleteId180 {
+  color: #c3c3c3;
+  font-size: 20px;
+}
+
+tr.item-row {
+  border-bottom: 3px solid #fff;
+  height: 45px;
+}
+
+#krepling_paymentgateway .cart-1.shopping-card-icon svg {
+  margin-right: 15px !important;
+  width: 21px;
+  margin-left: 11px !important;
+}
+
+input#btnFirstStep {
+  width: 233px !important;
+  float: right;
+  font-size: 21px;
+  height: 55px;
+  margin-top: 40px !important;
+}
+
+input#btnFirstStep:focus {
+  outline: none;
+}
+
+input#btnFirstStep:focus {
+  outline: none;
+}
+
+.iti__selected-flag {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 6px 0 9px;
+  width: 100%;
+}
+
+.iti__selected-flag {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 4px 0 16px !important;
+}
+
+
+a#firstLoginId:hover i:after {
+  width: 9px;
+  height: 2px;
+  content: "";
+ top: 43.8%;
+  display: block;
+  background-color: var(--kp-button-color);
+  position: absolute;
+  left: 72%;
+  transition: 0.2s ease-in;
+}
+
+#loginDivId input:focus {
+  box-shadow: 0px 3px 5px 1px #ccc;
+  transition: 0.3s ease-in-out;
+}
+
+div#stepFirstId input:focus,
+.card-information:focus-within {
+  box-shadow: 0px 3px 5px 1px #ccc;
+  transition: 0.3s ease-in-out;
+}
+
+div#stepFirstId .card-info-1 input:focus,
+div#stepFirstId .card-info-2 input:focus,
+div#stepFirstId .card-info-3 input:focus {
+  box-shadow: none;
+}
+
+.already-acnt a#firstLoginId i.fa.fa-angle-right {
+  margin-left: 15px;
+  color:color: var(--kp-button-color);
+  margin-bottom: 1px;
+}
+
+a#firstLoginId .fa-angle-right:before {
+  margin-left: -8px;
+}
+
+a#firstLoginId:hover .fa-angle-right:before {
+  margin-left: 0px;
+  transition: 0.3s all ease-in;
+}
+
+a#firstLoginId i:after {
+  width: 0px;
+  height: 2px;
+  content: "";
+  top: 44%;
+  display: block;
+  background-color: #b766ff;
+  position: absolute;
+  right: 16%;
+}
+
+.fa-angle-right:before {
+  content: "\f105";
+  font-size: 20px;
+}
+
+a#AddressAnchor35 {
+  padding: 0;
+}
+
+a#AddressdeleteAnchor35 {
+  padding: 0;
+}
+
+.pay-button {
+  margin: 0;
+  text-align: end;
+  width: 47%;
+  float: right
+}
+
+.pay-button .btn {
+  font-size: 16px;
+}
+
+.pay-button .btn {
+  font-size: 18px;
+}
+
+#krepling_paymentgateway button#complete_payment {
+  margin: 50px 0!important;
+}
+
+.input-group-text.radiobtn-collapse {
+  background: none;
+  border: 0;
+}
+
+h6.address-collapse {
+  width: 77%;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+.icons-collapse.d-flex .fa-trash,
+.icons-collapse.d-flex .fa-pencil {
+  font-size: 18px;
+  color: #c4c4c4;
+  margin-right: 25px;
+}
+
+.default-fav {
+  font-size: 15px;
+  color: #c4c4c4;
+}
+
+.icons-collapse.d-flex .fa-star-o {
+  font-size: 18px;
+  color: #c4c4c4;
+}
+
+:root {
+  --w_icon_wrap: 140px;
+  --g_icon_wrap: 20px;
+}
+
+
+.carddetails-address-infolist.d-flex.justify-content-between {
+  display: flex;
+  width: 100%;
+  height: 23px;
+  justify-content: space-between;
+}
+
+
+.carddetails-address-infolist.d-flex.justify-content-between:hover .icons-collapse.d-flex {
+  visibility: visible;
+}
+
+.carddetails-address-infolist.d-flex.justify-content-between .icons-collapse i:not(.default-fav) {
+  visibility: hidden;
+}
+
+.carddetails-address-infolist.d-flex.justify-content-between:hover .icons-collapse i {
+  visibility: visible;
+}
+
+.input-group-text.radiobtn-collapse input[type="radio"] {
+  margin-bottom: 10px;
+}
+
+.add-delivery-withplus a {
+  color: var(--kp-button-color)!important;
+}
+
+.add-delivery-withplus i.fa.fa-plus {
+  margin-right: 15px;
+  margin-left: 2px;
+}
+
+.delivery-Address-content {
+  width: 60%;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.delivery-Address-content h6 {
+  line-height: 1.5;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: capitalize;
+  font-size:13px;
+  color: var(--kp-text-color);
+}
+
+/*custom radio*/
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #7b02e5;
+  background-color: #ffffff;
+}
+
+.custom-control-input:checked~.custom-control-label::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%7b02e5'/%3e%3c/svg%3e") !important;
+  width: 18px;
+  height: 18px;
+}
+
+.custom-control-label {
+  margin-bottom: 10px;
+  cursor: pointer;
+
+}
+
+.custom-control-label {
+  width: 82%;
+}
+
+.custom-control-label::before {
+  width: 15px;
+  height: 15px;
+}
+
+.custom-control-label::after {
+  top: 2px;
+  width: 14px;
+  height: 13px;
+  left: -26px;
+}
+
+label.custom-control-label span {
+  margin-left: 10px;
+  display: block;
+}
+
+/* Custom Arrow */
+
+.heroSlider-fixed img {
+  width: 100%;
+  height: auto;
+  padding: 5px !important;
+}
+
+.slick-track {
+  display: flex;
+  overflow: auto;
+  margin-left:10px;
+}
+
+.heroSlider-fixed .chip-card img {
+  width: 23px;
+}
+
+/* Custom Arrow */
+.prev {
+  color: var(--kp-button-color)!important;
+  position: absolute;
+  top: 40%;
+  left: -22px;
+  font-size: 2.5em;
+  padding: 6px;
+  height: 43px;
+}
+
+.prev :hover {
+  cursor: pointer;
+  color: var(--kp-border-color);
+}
+
+.next {
+  color: var(--kp-button-color);
+  top: 40%;
+  right: -27px;
+  font-size: 2.5em;
+  padding: 6px;
+  height: 43px;
+  position: absolute;
+}
+
+
+.next:hover {
+  cursor: pointer;
+  color: var(--kp-border-color);
+}
+
+.next-prev-icon {
+  position: absolute;
+  bottom: 60%;
+  left: 0px;
+  width: 100%;
+  transform: translateY(-48%);
+  display: block !important;
+}
+
+#stepFirstId ::-webkit-scrollbar {
+  display: none;
+}
+
+.heroSlider-fixed .next.slick-disabled {
+  visibility: hidden;
+}
+
+/*checkoutpopup height*/
+
+#myModal .modal-dialog {
+  height: 100% !important;
+}
+
+.addcard-heading.close.customClose {
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.cart-1.shopping-card-icon.carddetails-page p {
+  margin: 0 !important;
+}
+
+input#phoneNumber2 {
+  margin-top: -83px;
+  width: 100%;
+}
+
+input#userNameId:focus {
+  box-shadow: 0px 3px 5px 1px #ccc;
+  transition: 0.3s ease-in-out;
+}
+
+.panel-default {
+  border-color: transparent !important;
+}
+
+.panel.panel-default {
+  border-top: 2px solid var(--kp-input-color) !important;
+  border-bottom: 2px solid var(--kp-input-color) !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+	background: var(--kp-background-color);
+
+}
+
+input#emailAddress:focus {
+  box-shadow: 0px 3px 5px 1px #ccc;
+  transition: 0.3s ease-in-out;
+}
+
+input#phoneNumberIds:focus {
+  box-shadow: 0px 3px 5px 1px #ccc;
+  transition: 0.3s ease-in-out;
+}
+
+.modal-content.addcard-content.bbox {
+  background: var(--kp-background-color);
+      display: flex;
+    flex-direction: column;
+    padding-bottom: unset;
+    min-height: 100vh;
+}
+
+.radio-new-button-animation {
+  margin-top: -14px;
+  margin-left: -9px;
+}
+
+input:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+@-webkit-keyframes autofill {
+
+  0%,
+  100% {
+    color: #666;
+    background: transparent;
+  }
+}
+
+/*radio button animation*/
+
+.radio-new-button-animation form {
+  position: relative;
+}
+
+.radio-new-button-animation form label:before,
+form span:before {
+  border-radius: 50%;
+  content: "";
+}
+
+.radio-new-button-animation form label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  left: 20px;
+  bottom: 2px;
+  font-family: PPRadioGrotesk-Light;
+}
+
+
+.radio-new-button-animation form label:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.radio-new-button-animation form span {
+  position: absolute;
+  top: 15px;
+  left: 4px;
+  width: 1em;
+  height: 1em;
+  transition: transform 0.15s linear;
+  z-index: 1;
+}
+
+.radio-new-button-animation form span,
+form span:before {
+  display: block;
+}
+
+.radio-new-button-animation form span:before {
+  background-color: #720dd3;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.radio-new-button-animation input {
+  position: relative;
+  top: 13px;
+  left: -0.29em;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.radio-new-button-animation input[type="radio"] {
+  accent-color: var(--kp-button-color);
+  background-color: #ffffff;
+}
+
+
+.radio-new-button-animation input:nth-of-type(1):checked~span {
+  transform: translateY(0em);
+}
+
+.radio-new-button-animation input:nth-of-type(1):checked~span:before {
+  animation: wobble1 0s linear forwards;
+}
+
+@keyframes wobble1 {
+
+  from,
+  to {
+    transform: translateY(0) scale(1);
+  }
+
+  25% {
+    transform: translateY(0) scale(1.33);
+  }
+
+  50% {
+    transform: translateY(0.25em) scale(1);
+  }
+
+  67% {
+    transform: translateY(-0.15em) scale(1);
+  }
+
+  83% {
+    transform: translateY(0.07em) scale(1);
+  }
+}
+
+.radio-new-button-animation input:nth-of-type(2):checked~span {
+  transform: translateY(3em);
+}
+
+.radio-new-button-animation input:nth-of-type(2):checked~span:before {
+  animation: wobble2 0.0s linear forwards;
+}
+
+.cart-1.carddetails-page.images-shopping {
+  margin-left: 21px;
+  margin-top: 5px;
+}
+
+.cart-1.carddetails-page.images-shopping img {
+  margin-right: 15px;
+}
+
+.cart-1.carddetails-page.images-shopping p {
+  font-size: 20px;
+}
+
+.modal-dialog.setCenter {
+  background: var(--kp-background-color);
+}
+
+.cart_input.fadeInRight {
+  align-items: center;
+}
+
+.shopping-card-icon p {
+  margin: 0;
+}
+
+.icons-collapse.d-flex {
+  width: 100%;
+  margin-left: 0px;
+  display: flex;
+  justify-content: end;
+}
+
+.cssanimation,
+.cssanimation span {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.wallet-heading h2{
+	font-size:21px;
+	font-family: 'PPRadioGrotesk-Regular';
+}
+
+.cssanimation span {
+  display: inline-block
+}
+
+.zoomInDown {
+  animation-name: textdown;
+}
+
+.addcard-heading.close.customClose {
+  height: 97px;
+}
+
+@keyframes zoomInDown {
+  from {
+    transform: scale(1) translateY(-50%);
+    opacity: 0;
+  }
+}
+
+.text_up {
+  animation: textUp .4s linear;
+}
+
+@keyframes textdown {
+  from {
+    font-size: 25px;
+  }
+
+  to {
+    font-size: 20px;
+    margin: 33px 0 5px;
+  }
+}
+
+
+@keyframes textUp {
+  from {
+    color: #000;
+    font-size: 20px;
+    transform: translateY(30px);
+  }
+
+  to {
+    transform: translateY(0px);
+    color: #000;
+    font-size: 33px;
+    font-weight: bold;
+  }
+}
+
+
+.zoom-in-zoom-out {
+  margin: 24px;
+  width: 50px;
+  animation: zoom-in-zoom-out 2s;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  50% {
+    transform: scale(0, 0);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+/*=== FADE IN DOWN ===*/
+.box.animate.fadeInDown.two {
+  border: 0;
+}
+
+.animate {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.two {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+button#btndOk {
+  background-color: var(--kp-button-color) ;
+}
+
+.add-btn-addcard {
+  margin: 12rem 0;
+  width: 47%;
+  height: 55px;
+  background-color: var(--kp-button-color);
+  border:unset;
+}
+
+.add-btn-addcard:hover {
+  background: var(--kp-button-color);;
+  border: none;
+}
+

@@ -1,0 +1,12 @@
+/*
+ * Refactored manifest for Krepling checkout styles.
+ * The previous monolithic stylesheet has been split into smaller files to make
+ * maintenance safer. File load order intentionally matches the legacy order.
+ */
+
+@import url("./00-krepling-core.css");
+@import url("./10-krepling-checkout.css");
+@import url("./20-krepling-animations.css");
+@import url("./30-krepling-selects.css");
+@import url("./40-krepling-wallet.css");
+@import url("./50-krepling-feedback.css");

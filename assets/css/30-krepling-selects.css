@@ -1,0 +1,363 @@
+/* Custom select/dropdown styling
+ * Auto-extracted from legacy krepling-style.css during stylesheet refactor.
+ */
+
+/*custom select dropdown*/
+.selectprice .select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+  top: -3px;
+}
+
+#krepling_paymentgateway #stepFirstId select {
+  border: 0;
+  background-color:var(--kp-input-color);
+  font-size: 13px;
+  width: 100%;
+  min-height: 3.4rem;
+  outline: none;
+  padding: 0px 0 0px 8px;
+  border-radius: 6px;
+  display: block;
+  max-width:100%;
+  color: var(--kp-text-color)!important;
+}
+
+#krepling_paymentgateway #stepFourId select {
+  border: 0;
+  background-color: var(--kp-input-color);
+  font-size: 13px;
+  width: 100%;
+  min-height: 3.4rem;
+  outline: none;
+  padding: 0px 0 0px 8px;
+  border-radius: 6px;
+  display: block;
+  max-width:100%;
+  color: var(--kp-text-color) !important;
+}
+
+#krepling_paymentgateway #stepFirstId .flex{
+  gap: 40px;
+}
+
+#krepling_paymentgateway .custom-select {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  padding: 8px 15px;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  border: 0;
+  color: #141414;
+  font-weight: bold;
+  font-size: 18px;
+  width: 95px;
+  height: 30px;
+}
+
+#krepling_paymentgateway .custom-select:after {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  transform: rotateZ(0deg);
+  transition: all 0.5s;
+  transform-origin: 50% 25%;
+  background: #fff;
+  content: "\f107";
+  font-family: 'FontAwesome';
+  font-size: 25px;
+}
+
+#krepling_paymentgateway .custom-select:active,
+#krepling_paymentgateway .custom-select.active {
+  background-color: #fff;
+  color: #141414;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100px;
+}
+
+#krepling_paymentgateway .custom-select:active:after,
+#krepling_paymentgateway .custom-select.active:after {
+  transform: rotateZ(180deg);
+  transition: all 0.5s;
+  transform-origin: 50% 25%;
+  right: 2px;
+  background: #fff;
+  top: 19px;
+  right: 8px;
+}
+
+div#state {
+  position: absolute;
+}
+
+.slick-slide {
+  width: 157px !important;
+}
+
+.move_anim {
+  display: block;
+  animation: fadeInRight2 .6s ease-in-out;
+  opacity: 1;
+}
+
+.addaddressmodal .fillcountry {
+  width: 100px;
+  font-family: PPRadioGrotesk-Medium, fontAwesome;
+}
+
+.modal-header.modalheaderBg {
+  margin: inherit;
+}
+
+.checkout_slider .slick-slide {
+  margin: 12px 8px;
+  width: 153px;
+  line-height:0;
+}
+
+.modal-header button {
+  outline: none;
+  border: 0;
+  box-shadow: unset !important;
+}
+
+#krepling_payment .form-control {
+  display: block;
+  min-height: 2.25rem;
+  border: 0px !important;
+  border-radius: 6px;
+  background-color: #EFEFEF !important;
+  background-clip: padding-box;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #333;
+  border: none;
+  font-family: 'PPRadioGrotesk-Medium', 'FontAwesome';
+  border-radius: 6px !important;
+}
+
+#krepling_payment input {
+  max-width: revert;
+}
+
+.form-control:focus {
+  outline: 0;
+  border-color: #348fe2;
+}
+
+.form-control[disabled] {
+  cursor: not-allowed;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+.form-label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  margin-bottom: 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline input[type="file"],
+.form-inline .form-group {
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.checkbox,
+.radio {
+  position: relative;
+  display: block;
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+  padding-left: 1.5rem;
+}
+
+.table>tbody>tr.info>td,
+.table>tbody>tr.info>th,
+.table>tbody>tr>td.info,
+.table>tbody>tr>th.info,
+.table>tfoot>tr.info>td,
+.table>tfoot>tr.info>th,
+.table>tfoot>tr>td.info,
+.table>tfoot>tr>th.info,
+.table>thead>tr.info>td,
+.table>thead>tr.info>th,
+.table>thead>tr>td.info,
+.table>thead>tr>th.info {
+  background-color: transparent;
+}
+
+#panelproductId table tr.total-row td {
+      padding: 8px 0px;
+  color: var(--kp-text-color);
+}
+
+#stepFourId.btn {
+  font-size: 1.5rem;
+}
+
+.modal .form-control {
+  border: none;
+}
+
+button.btn.btn-secondary.manage-dilvery-footer {
+  background: #7700e2;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+
+}
+
+.panel-default>.panel-heading {
+  background-color: transparent !important;
+}
+
+.modal .form-control:focus {
+  box-shadow: none;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+  border-top: none;
+  display: inherit;
+}
+
+
+button#btnAddCard {
+  font-size: 21px;
+  width: 233px;
+  font-weight: 700;
+  font-family: PPRadioGrotesk-Bold;
+  border-radius: 50px;
+}
+
+.btn-group-vertical>.btn-group:after,
+.btn-group-vertical>.btn-group:before,
+.btn-toolbar:after,
+.btn-toolbar:before,
+.clearfix:after,
+.clearfix:before,
+.container-fluid:after,
+.container-fluid:before,
+.container:after,
+.container:before,
+.dl-horizontal dd:after,
+.dl-horizontal dd:before,
+.form-horizontal .form-group:after,
+.form-horizontal .form-group:before,
+.modal-footer:after,
+.modal-footer:before,
+.modal-header:after,
+.modal-header:before,
+.nav:after,
+.nav:before,
+.navbar-collapse:after,
+.navbar-collapse:before,
+.navbar-header:after,
+.navbar-header:before,
+.navbar:after,
+.navbar:before,
+.pager:after,
+.pager:before,
+.panel-body:after,
+.panel-body:before,
+.row:after,
+.row:before {
+  content: none !important;
+}
+
+.star {
+  font-size: 16px;
+  color: #AAAAAA;
+  top: 0px;
+  margin-bottom: 24px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.star .fa-star {
+  font-size: 16px;
+  color: var(--kp-button-color);
+}
+
+h1.alignwide.wp-block-post-title {
+  margin-bottom: 0 !important;
+}
+
+.intl-tel-input .selected-flag {
+  padding: 0 0 0px 17px !important;
+}
+
+.addcardmodel .card-information:focus {
+  box-shadow: 0px 3px 5px 1px #ccc !important;
+}
+
+.addcardmodel .card-information .form-control:focus {
+  box-shadow: none !important;
+}
+
+.checkout_wraper {
+  position: fixed;
+  z-index: 999;
+}
+
+#krepling_paymentgateway.card-1.checkout_popup :is(input.btn) {
+  color: #fff !important;
+}
+
+ul.opc-progress-bar {
+  margin-top: 100px;
+}
+
+.opc-sidebar {
+  margin: -20px 0px !important;
+}
+
+#spanuserNameErrorId,
+#spanPwdErrorid {
+  font-size: 14px;
+}
+
+.backBtn {
+  align-items: center;
+}
+
+#stepSecondId .countinue-1 {
+  padding-right: 0px !important;
+}
+

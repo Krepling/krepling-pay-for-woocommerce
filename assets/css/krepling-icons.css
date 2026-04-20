@@ -1,0 +1,57 @@
+.fa,
+.fas,
+.far {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 1;
+  speak: none;
+  text-rendering: auto;
+}
+
+.fa::before,
+.fas::before,
+.far::before {
+  display: inline-block;
+}
+
+.fa-angle-left::before,
+.fa-chevron-left::before {
+  content: "\2039";
+}
+
+.fa-angle-right::before,
+.fa-chevron-right::before {
+  content: "\203A";
+}
+
+.fa-times::before {
+  content: "\00D7";
+}
+
+.fa-star::before {
+  content: "\2605";
+}
+
+.fa-plus::before {
+  content: "+";
+}
+
+.fa-pencil::before {
+  content: "\270E";
+}
+
+.fa-trash::before,
+.fa-trash-o::before {
+  content: "\1F5D1";
+}
+
+.fa-envelope-o::before {
+  content: "\2709";
+}
+
+.fa-circle::before {
+  content: "\2022";
+}

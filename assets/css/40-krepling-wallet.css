@@ -1,0 +1,1153 @@
+/* Wallet settings and wallet management UI
+ * Auto-extracted from legacy krepling-style.css during stylesheet refactor.
+ */
+
+/* Wallet Setting Start */
+.backBtn-change {
+  display: flex;
+  justify-content: right;
+}
+
+.changepassword-content {
+  margin-top: 38px;
+  margin-bottom: 25px;
+  font-family: 'PPRadioGrotesk-Regular';
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--kp-text-color);
+}
+
+.hidePassword {
+  top: 10px !important;
+}
+
+#krepling_paymentgateway .forgetpass {
+  color: var(--kp-button-color) !important;
+  margin-top: 30px;
+  cursor: pointer;
+  position: relative;
+  font-weight: 400;
+  font-family: 'PPRadioGrotesk-Bold';
+  font-size: 13px;
+}
+
+.forget-alert {
+  padding: 10px 18px;
+  margin-top: 19px;
+  background-color: #F7EDFF;
+  border-radius: 10px;
+  color: #000;
+}
+
+.change_pass {
+  position: relative;
+}
+
+#btnChangepassword {
+  font-size: 21px;
+  height: 55px;
+  width: 233px;
+  font-weight: 500;
+  box-shadow: none;
+  border-radius: 7px;
+  background: transparent linear-gradient(0deg, #8300E9 0%, #7300E2 100%) 0% 0% no-repeat padding-box !important;
+  margin-top: 125px;
+}
+
+#commonsubmit {
+  width: 233px !important;
+  font-size: 21px;
+  height: 55px;
+  border-radius: 50px;
+  float: right;
+  position: relative;
+  top: 200px;
+  margin: 0px !important;
+}
+
+.walletsetting-body {
+  margin-top: 38px;
+}
+
+.wallet-heading {
+  font-size: 21px;
+  color: var(--kp-button-color);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'PPRadioGrotesk-Regular';
+}
+
+
+.wallet-heading i.fa.fa-angle-left {
+  font-size: 27px;
+  margin: 0 3px 3px 0;
+  color: var(--kp-button-color);
+  vertical-align: middle;
+}
+
+.pass-security {
+  font-size: 10px;
+  color: var(--kp-text-color);
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: PPRadioGrotesk-Light;
+}
+
+
+#krepling_paymentgateway .common-wallet-content h4 {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--kp-text-color);
+  line-height: 0;
+  margin-bottom: 5px;
+  font-family: 'PPRadioGrotesk-Ultrabold';
+  padding-bottom: 10px;
+}
+
+#krepling_paymentgateway .common-wallet-content p {
+  font-size: 13px;
+  color: var(--kp-text-color);
+  font-weight: 400;
+  margin-bottom: 0;
+  font-family: 'PPRadioGrotesk-Regular';
+}
+
+#krepling_paymentgateway .common-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+  position: relative;
+}
+
+.kreplingfast-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13px;
+
+}
+
+.kreplingfast-content .slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 6px;
+  bottom: -3px;
+  top: 4px;
+  background-color: var(--kp-background-color);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.kreplingfast-content .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--kp-input-color);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.kreplingfast-content .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.kreplingfast-content .switch {
+  position: relative;
+  display: inline-block;
+  width: 74px;
+  height: 28px;
+}
+
+.kreplingfast-content :checked+.slider {
+  background-color: var(--kp-button-color);
+}
+
+.kreplingfast-content .slider.round {
+  border-radius: 34px;
+  height: 38px;
+}
+
+.kreplingfast-content input:checked+.slider:before {
+  -webkit-transform: translateX(32px);
+  -ms-transform: translateX(32px);
+  transform: translateX(32px);
+  background-color: var(--kp-background-color);
+}
+
+.kreplingfast-content .slider.round:before {
+  border-radius: 50%;
+}
+
+.common-flex .fa-angle-right:before {
+  color: var(--kp-text-color);
+  font-size: 36px !important;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+.walletsetting-body .row {
+  display: block;
+}
+
+.wallet-mb {
+  margin-bottom: 20px;
+}
+
+.walletsetting-group span {
+  color: var(--kp-button-color);
+  font-family: PPRadioGrotesk-Light;
+}
+
+.walletsetting-group span:before {
+  display: inline;
+}
+
+.authentication-group p {
+  line-height: 2;
+}
+
+.authentication-verified a {
+  margin-left: 23px;
+  font-size: 14px;
+  color: var(--kp-button-color);
+  font-weight: 400!important;
+}
+
+#hide-delivery{
+	font-weight:700!important;
+	font-family: PPRadioGrotesk-Bold !important;
+}
+.authentication-email {
+  color: var(--kp-button-color);
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 10px;
+
+}
+
+.loginalert {
+  position: relative;
+}
+
+.login-alert-flex {
+  padding-left: 45px;
+}
+
+.login-alert-flex svg {
+  width: auto !important;
+  position: absolute !important;
+  bottom: 16px;
+  left: 6px;
+}
+
+.authentication-body .row {
+  display: unset;
+}
+
+.authentication-body .wallet-mb {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.defaltbtn {
+  margin-left: 24px;
+  background-color: var(--kp-input-color);
+  padding: 6px 15px;
+  position: relative;
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--kp-text-color) !important;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'PPRadioGrotesk-Regular' !important;
+}
+
+.resend {
+  color: var(--kp-button-color);
+  cursor: pointer;
+  
+}
+
+.resend .fa {
+  font-size: 5px;
+  position: relative;
+  top: -1px;
+  padding-right: 7px;
+  color: var(--kp-button-color);
+  padding-left: 7px;
+  vertical-align: middle;
+}
+
+.authentication-change a {
+  position: relative;
+  bottom: 28px;
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--kp-text-color);
+  border-bottom: 2px solid;
+  font-family: 'PPRadioGrotesk-Bold' !important;
+}
+
+#otp_phoneNumber{
+	padding-left: 86px;
+	width:100%;
+}
+
+.login-alert {
+  bottom: 10px;
+  border-bottom: 0;
+  color: var(--kp-button-color);
+}
+
+#commonbtn {
+  width: 233px !important;
+  font-size: 21px !important;
+  height: 55px;
+  border-radius: 50px;
+  float: right;
+  position: relative;
+  margin: unset !important;
+  font-family: PPRadioGrotesk-Bold;
+}
+
+#commonbtn:focus{
+	outline: 0px auto -webkit-focus-ring-color;
+}
+
+.delet-content {
+  margin-top: 29px;
+  margin-bottom: 96px;
+}
+
+.delet-content p {
+  font-size: 15px;
+  color: var(--kp-text-color);
+  font-weight: 700;
+  font-family: 'PPRadioGrotesk-Bold';
+}
+
+.flex-btns {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#krepling_paymentgateway #cancel {
+  width: 233px;
+  font-size: 21px;
+  height: 55px;
+  border-radius: 6px;
+  float: right;
+  position: relative;
+ color: var(--kp-button-color)!important;
+  font-weight: 700;
+  background-color: transparent !important;
+  border: 0px;
+  font-family: PPRadioGrotesk-Bold;
+}
+
+.logout-content {
+  margin-top: 29px;
+  margin-bottom: 134px;
+}
+
+.phonecodeborder {
+  border-bottom: 2px solid;
+  width: 118px;
+  margin-top: 32px;
+  color: var(--kp-input-color);
+  margin-bottom: 35px;
+}
+
+.phonecodetext {
+  margin-bottom: 32px;
+  margin-bottom: 32px;
+  font-size: 13px;
+  font-weight: normal;
+      text-transform: unset;
+	  color: var(--kp-text-color);
+}
+
+#display_otp_phone{
+	color: var(--kp-text-color);
+}
+
+
+.phoneCode {
+  border-radius: 10px !important;
+  background: var(--kp-input-color);
+  box-shadow: none !important;
+  border: 0;
+  margin-left: 2px !important;
+  text-align: center;
+ height: 89px;
+  font-size: 34px;
+  font-weight:700;
+  box-shadow: 0 0 5px #ccc inset;
+  border: 0px !important;
+  outline: none;
+  border-radius: 3px;
+  margin: 0px 0em 0 0 !important;
+  width: calc((100% - 20%) / 6);
+  font-size: 35px !important;
+  color: var(--kp-text-color);
+}
+
+.phone-verification-code, .resendPhone-verification-code{
+    margin-left: 4rem;	
+}
+
+#phonecodeinput {
+  display: flex;
+  justify-content: center;
+}
+
+.change_email_code {
+  margin-top: 38px;
+}
+
+.cahnge_email {
+  margin-top: 38px;
+}
+
+.cahnge_email,
+.changephone label {
+  margin-bottom: 10px;
+}
+
+.changephonecode {
+  margin-top: 38px;
+}
+
+.SMSArea-code input {
+  width: calc((100% - 20%) / 6);
+  margin-left: 2px;
+  border-radius: 10px !important;
+  background: var(--kp-input-color);
+  color: var(--kp-text-color);
+  box-shadow: none !important;
+  border: 0;
+  font-size: 35px!important;
+  margin: 0 0em 0 0 !important;
+}
+
+#display_otp_email{
+color: var(--kp-text-color);	
+}
+.emailverification-code{
+    margin-left: 4rem;
+}
+
+.otp_blocks_email {
+  display: flex;
+  justify-content: center
+}
+
+.change_email_code .emailcodeborder {
+  border-bottom: 2px solid;
+  width: 140px;
+  margin-top: 32px;
+  color: var(--kp-input-color);
+  margin-bottom: 35px;
+
+}
+
+.whereyoulogged {
+  margin-bottom: 30px;
+}
+
+.modal-header.modalheaderBg {
+  width: 100%;
+  display: block !important;
+}
+
+.whereloginmsg {
+  display: flex;
+  margin-top: 17px;
+  border-bottom: 2px solid var(--kp-input-color);
+  align-items: center;
+  padding-bottom: 16px;
+
+}
+
+.whereyoulogged-group h4 {
+  font-size: 13px;
+  font-weight: 700;
+color: var(--kp-text-color);
+  margin-bottom: 5px;
+  font-family: 'PPRadioGrotesk-Ultrabold';
+}
+
+
+#update_phoneNumber a{
+font-weight:700;	
+}
+
+
+#update_emailAddress a{
+	font-weight:700;
+}
+
+.addcard-body .form-group{
+	margin-bottom:30px;
+}
+
+.wherelogeed-img {
+  width: auto !important;
+}
+
+.whereloginmsg p {
+  margin-left: 13px;
+  font-size: 10px;
+  margin-bottom: 0;
+  font-weight:400;
+  color: var(--kp-text-color);
+}
+
+.whereloginmsg a {
+ color: var(--kp-button-color);
+}
+
+#krepling_paymentgateway .whereyoulogged-group p {
+  font-size: 13px;
+  font-family: PPRadioGrotesk-Regular;
+  color: var(--kp-text-color);
+}
+
+.apple-content {
+  padding-left: 40px;
+}
+
+.apple-content svg {
+  width: auto !important;
+  position: absolute !important;
+  bottom: 20px !important;
+  left: 0px;
+  margin: 0px !important;
+}
+
+.apple-content i {
+  font-size: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+  vertical-align: middle;
+  color: var(--kp-text-color);
+}
+
+.apple-content span {
+  font-size: 13px;
+  color: var(--kp-button-color);
+}
+
+#krepling_paymentgateway .whereyoulogged-option h4 {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--kp-text-color);
+  font-family: PPRadioGrotesk-Bold;
+}
+
+#divCardId .form-control{
+	background: var(--kp-input-color);
+	border: unset;
+	color: var(--kp-text-color);
+  font-family: 'PPRadioGrotesk-Light';
+      padding-bottom: 5px;
+}
+
+.whereyoulogged-option .seclectall {
+  color: #8300E9;
+}
+
+.whereyourother-option {
+  margin-top: 27px!important;
+  margin-bottom: 27px!important;
+}
+
+.reviewdevicesmsg {
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+.review_devices_page .reviewdevice {
+  margin-top: 28px!important;
+  margin-bottom: 13px!important;
+}
+
+.reviewdevice-group h4 {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--kp-text-color);
+  margin-bottom: 5px;
+  margin-left: 10px !important;
+  font-family: 'PPRadioGrotesk-Ultrabold';
+}
+
+.reviewdevice-content svg {
+  width: auto !important;
+  position: absolute !important;
+  bottom: 17px;
+  left: 0px;
+}
+
+.reviewdevice-content {
+  padding-left: 30px;
+}
+
+.reviewdevicesmsg p {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--kp-text-color);
+  font-family: PPRadioGrotesk-Regular;
+}
+
+.reviewdevice-group p {
+  font-size: 13px;
+  margin-left: 10px !important;
+  font-family: PPRadioGrotesk-Regular;
+  color: var(--kp-text-color);
+}
+
+.recognize-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--kp-text-color);
+  font-family: 'PPRadioGrotesk-Ultrabold';
+  margin-bottom: 5px;
+}
+
+.reviewdevice-content i {
+  font-size: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+#reviewbtn {
+  width: 248px;
+  height: 33px;
+  background-color: var(--kp-input-color);
+  color: var(--kp-text-color)!important;
+  font-size: 13px;
+  border-radius: 5px;
+  border: 0px;
+  font-family: PPRadioGrotesk-Regular;
+}
+
+.review-btns {
+  margin-bottom: 40px;
+  gap: 5px;
+}
+
+span.authentication-verified:before,
+.resend:before {
+  display: inline;
+}
+
+.authentication-verified a{
+  cursor: unset!important;
+}
+
+.apple-content span:before {
+  display: inline;
+}
+
+.modal-footer {
+  border-top: 0px;
+
+}
+
+#AddAddressPopup .modal-footer{
+ display: flex;
+    justify-content: space-between;
+    align-items: center;	
+}
+
+.editmodal .modal-footer{
+ display: flex;
+    justify-content: space-between;
+    align-items: center;	
+}
+
+.authentication-email:before {
+  display: inline;
+}
+
+#AddAddressPopup .modal-content {
+  padding: 15px;
+  border-radius: 16px;
+  background-color:var(--kp-background-color);
+}
+
+#krepling_paymentgateway .modal {
+  padding-right: 0px !important;
+  z-index: 9999;
+}
+
+.editmodal .modal-content {
+  padding: 15px;
+  border-radius: 16px;
+  background-color:var(--kp-background-color);
+}
+
+.changephone {
+  margin-top: 38px;
+}
+
+.addnewpass {
+  margin-top: 38px;
+}
+
+.wallet_delete_page .addnewpass {
+  margin-top: 0px;
+}
+
+.wallet_logout_page .addnewpass {
+  margin-top: 0px;
+}
+
+span.authentication-verified {
+  color: #1CCB00;
+}
+
+.checkout_wraper a {
+  text-decoration: none !important;
+  font-weight: 400;
+  font-family: PPRadioGrotesk-Light;
+}
+
+.selectallDevices {
+  color: var(--kp-button-color);
+  font-weight: 700;
+  font-size:13px;
+  font-family: PPRadioGrotesk-Bold;
+  cursor:pointer;
+}
+
+#stepFourId .form-control {
+  background-color: #EFEFEF;
+}
+
+#stepFourId .close:hover {
+  background-color: transparent !important;
+}
+
+#stepFourId a {
+  text-decoration: none !important;
+  font-size:13px;
+  font-weight:300;
+  font-family: PPRadioGrotesk-Light;
+  cursor: pointer;
+}
+
+#stepFourId .flex {
+  margin-left: 0px;
+  gap: 34px;
+}
+
+
+#stepFourId .stateZip{
+  gap: 34px;	
+}
+
+.editmodel-popup .city3{
+	margin-bottom:unset!important;
+}
+
+#krepling_paymentgateway .form-control {
+  background: var(--kp-input-color) !important;
+  border: 0px;
+  box-shadow:unset;
+  max-width: unset;
+  width:100%;
+  color:var(--kp-text-color);
+}
+
+#krepling_settings {
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.whereyourother-option input[type="checkbox"] {
+  accent-color: var(--kp-button-color);
+  background-color: #ffffff;
+  cursor:pointer;
+}
+
+input#cardvalidityDateId {
+  text-align: justify;
+}
+
+input#addCardExpiry, input#paymentCardExpiry {
+  text-align: justify;
+}
+
+#krepling_paymentgateway .card-top h6 {
+  text-transform: capitalize;
+  font-size: 13px;
+  color: var(--kp-background-color);
+  font-weight: 700;
+  font-family: 'PPRadioGrotesk-Bold';
+}
+.add-delivery-withplus{
+	padding-bottom: 10px;
+}
+
+.authentication_email_group{
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  bottom: 5px;	
+}
+
+input#reviewbtn:hover {
+  background-color: #dddddd9e;
+}
+.card-info-2 input{
+	text-align:center;
+}
+.modal-header{
+	border-bottom:0px;
+}
+
+#user_password{
+	padding-right:40px;
+}
+
+.product-name{
+  vertical-align: middle;
+}
+
+.phone-verification-code input{
+  margin-right: 5px !important;
+}
+
+.change_email_code input{
+  margin-right: 5px !important;
+}
+ 
+.authentication_phone_group{
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  bottom: 5px;	 
+}
+
+#krepling_paymentgateway .company_logo h6 {
+  width: 90px;
+  word-wrap: break-word;
+  white-space: initial;
+  text-transform: capitalize;
+  font-family: 'PPRadioGrotesk-Bold';
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--kp-background-color);
+}
+
+#krepling_paymentgateway #stepFourId select, 
+#krepling_paymentgateway #stepFirstId select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+#krepling_paymentgateway #stepFourId select, 
+#krepling_paymentgateway #stepFirstId select{
+    background-image: url(../images/arrow_select.svg) !important;
+    content: "";
+    height: 17px;
+    background-repeat: no-repeat !IMPORTANT;
+    background-position: right 10px center !important;
+    background-repeat: no-repeat;
+}
+
+.wallet_authentication_page .authentication-body {
+    margin-top: 30px;
+}
+#panelproductId table tr.total-row td span {
+    font-family: 'PPRadioGrotesk-Regular';
+}
+
+#krepling_paymentgateway input,
+input::-webkit-input-placeholder {
+    font-size: 13px;
+}
+
+#full_name_feild{
+	margin-bottom:13px;
+}
+
+#full_name_feild input{
+margin-bottom:0px !important;	
+}
+
+#krepling_paymentgateway .common_btn {
+    background: none;
+    color: var(--kp-text-color);
+    outline: 0;
+    border: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: PPRadioGrotesk-Bold;
+}
+
+#krepling_paymentgateway .common_btn {
+    line-height: normal;
+    border-radius: 0;
+}
+
+.checkout-company_name{
+	margin-bottom:21px;
+}
+
+.crad_icon_flex{
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+	margin-bottom:13px;
+}
+
+.card_grop{
+	margin-left:1px;
+}
+
+#krepling_paymentgateway .card_grop img{
+	max-width:100%;
+	width: unset !important;
+}
+
+
+#cardlogo {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 7px;
+}
+
+#cardlogo svg{
+	max-width:30px;
+}
+
+#cardlogo img {
+    max-width: 30px;
+    border-radius: 4px;
+    position: relative;
+    bottom: 7px;
+}
+.card-info-2 {
+    position: relative;
+}
+
+
+#krepling_paymentgateway .billing_checkbox{
+    display: flex;
+    margin-bottom: 21px;
+    align-items:center;
+    cursor: pointer;
+}
+
+#krepling_paymentgateway .biling_flex input{
+  width: 21px;
+  height: 21px;
+  border-radius: 6px;
+  margin-top:0px;
+  margin: unset!important;
+  border:unset;
+  clip-path: unset!important;
+  position:relative;
+  background: var(--kp-input-color);
+}
+
+#krepling_paymentgateway .custom_checkbox {
+  appearance: none !important;
+}
+
+#krepling_paymentgateway .custom_checkbox:checked {
+  appearance: none !important;
+  background: var(--kp-button-color);
+}
+
+#krepling_paymentgateway .custom_checkbox:checked::before {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -40%);
+  content: url(../images/tick.svg);
+}
+
+#krepling_paymentgateway input::placeholder {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--kp-text-color) !important;
+  opacity: 0.5 !important;
+  line-height:13px;
+
+}
+
+#krepling_paymentgateway .biling_flex input:focus{
+	box-shadow:unset!important;
+	    outline: unset;
+}
+#krepling_paymentgateway .biling_flex p{
+	margin-top: 2px;
+font-size: 13px;
+color: var(--kp-text-color);
+font-weight: 500;
+font-family: 'PPRadioGrotesk-Medium';
+margin-left: 21px;
+}
+
+.card-information:focus-within {
+    box-shadow: unset;
+}
+.biling_flex {
+    height: 21px;
+}
+.payment-form .card-information .form-control:is(.card-input, .numbersOnly):focus {box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25)!important;}
+
+#divCardId .card-information .form-control:is(.card-input, .numbersOnly):focus {box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25)!important;}
+
+.card-info-3{
+	position:relative;
+}
+#securitylogo {
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+}
+
+#addcompany{
+	margin-bottom:21px;
+}
+
+#securitylogo svg{
+	max-width:30px;
+}
+
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  appearance: auto;
+  clip-path: circle(60% at 50% 50%);
+}
+
+#card_holder_group{
+	margin-bottom:21px;
+}
+
+.hideclass {
+  display: none;
+}
+
+#divCardId .card-input{
+  padding-left: 45px;
+}
+
+.card-information input{
+	box-shadow:unset;
+}
+
+.form-control:has( ~ .hideclass:not(:empty)) {
+    margin-bottom: unset !important;
+}
+
+#full_name_feild .hideclass {
+    margin-block: 11px 9px;
+}
+
+.card_details_error {
+	margin-top: 8px;
+  display: block;
+	color:#F00;
+	font-size:14px;
+	font-weight:400;
+  font-family: PPRadioGrotesk-Regular;
+}
+
+#full_name_feild:has( ~ .card_details_error) {
+    margin: unset !important;
+}
+.card-information:has( + .hideclass:not(:empty)) {
+    margin-bottom: unset !important;
+}
+.form-group .card-information:has( + .hideclass:not(:empty)) {
+    margin-bottom: unset !important;
+}
+
+#stepSecondId .form-group:has( + .hideclass:not(:empty)) {
+    margin-bottom: unset !important;
+}
+.card_details_error::before {
+	display:none;
+}
+
+#mainIdKrepling{
+  display: none;
+}
+ .card-holder:has( ~ .hideclass:not(:empty)) .form-control  {
+    margin-bottom: unset !important;
+}
+
+.addErrorBorder{
+	border:3px solid #F00 !important;	
+}
+
+header a {
+  font-size: initial;
+}
+.addcity{
+  width: 100%;	
+}
+.addstate{
+  width: 100%;	
+}
+
+.userAlreadyExistSignup {
+    padding: 4px 24px;
+    font-size: 10px;
+    border: none;
+    font-family: 'PPRadioGrotesk-Light';
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #000;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #efefef;
+    cursor: pointer;
+    height: 22px;
+    width: 81px;
+}
+
+.loader_overlay{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background: rgba(255,255,255,0.6) url("../images/loader.gif") center no-repeat;
+}
+

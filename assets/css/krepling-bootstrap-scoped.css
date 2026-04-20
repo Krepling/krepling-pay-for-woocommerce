@@ -1,0 +1,555 @@
+/* Scoped mini-Bootstrap for Krepling checkout v2
+   Derived from Bootstrap 3.4.1 and reduced to the classes/elements your checkout uses.
+   Scope: #krepling_paymentgateway
+*/
+
+/* ===== Bootstrap base foundation ===== */
+#krepling_paymentgateway {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+}
+
+#krepling_paymentgateway button,
+#krepling_paymentgateway input,
+#krepling_paymentgateway select,
+#krepling_paymentgateway textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+#krepling_paymentgateway a {
+  color: #337ab7;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#krepling_paymentgateway a:hover,
+#krepling_paymentgateway a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+#krepling_paymentgateway a:active,
+#krepling_paymentgateway a:hover {
+  outline: 0;
+}
+
+#krepling_paymentgateway b,
+#krepling_paymentgateway strong {
+  font-weight: 700;
+}
+
+#krepling_paymentgateway small,
+#krepling_paymentgateway .small {
+  font-size: 85%;
+}
+
+#krepling_paymentgateway figure {
+  margin: 0;
+}
+
+#krepling_paymentgateway p {
+  margin: 0 0 10px;
+}
+
+#krepling_paymentgateway img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+#krepling_paymentgateway svg:not(:root) {
+  overflow: hidden;
+}
+
+:where(#krepling_paymentgateway) h1,
+:where(#krepling_paymentgateway) h2,
+:where(#krepling_paymentgateway) h3,
+:where(#krepling_paymentgateway) h4,
+:where(#krepling_paymentgateway) h5,
+:where(#krepling_paymentgateway) h6,
+:where(#krepling_paymentgateway) .h1,
+:where(#krepling_paymentgateway) .h2,
+:where(#krepling_paymentgateway) .h3,
+:where(#krepling_paymentgateway) .h4,
+:where(#krepling_paymentgateway) .h5,
+:where(#krepling_paymentgateway) .h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+:where(#krepling_paymentgateway) h1,
+:where(#krepling_paymentgateway) .h1 {
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+:where(#krepling_paymentgateway) h2,
+:where(#krepling_paymentgateway) .h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+:where(#krepling_paymentgateway) h3,
+:where(#krepling_paymentgateway) .h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+:where(#krepling_paymentgateway) h4,
+:where(#krepling_paymentgateway) .h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+:where(#krepling_paymentgateway) h5,
+:where(#krepling_paymentgateway) .h5 {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+:where(#krepling_paymentgateway) h6,
+:where(#krepling_paymentgateway) .h6 {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#krepling_paymentgateway table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: transparent;
+}
+
+#krepling_paymentgateway caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777;
+  text-align: left;
+}
+
+#krepling_paymentgateway th {
+  text-align: left;
+}
+
+#krepling_paymentgateway label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+#krepling_paymentgateway textarea {
+  overflow: auto;
+}
+
+#krepling_paymentgateway button,
+#krepling_paymentgateway select {
+  text-transform: none;
+}
+
+#krepling_paymentgateway button,
+#krepling_paymentgateway input[type="button"],
+#krepling_paymentgateway input[type="reset"],
+#krepling_paymentgateway input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+#krepling_paymentgateway button[disabled],
+#krepling_paymentgateway input[disabled] {
+  cursor: default;
+}
+
+#krepling_paymentgateway input[type="checkbox"],
+#krepling_paymentgateway input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#krepling_paymentgateway input[type="search"] {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#krepling_paymentgateway hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+/* ===== Utilities used by checkout ===== */
+#krepling_paymentgateway .text-left { text-align: left !important; }
+#krepling_paymentgateway .text-right { text-align: right !important; }
+#krepling_paymentgateway .text-center { text-align: center !important; }
+#krepling_paymentgateway .text-nowrap { white-space: nowrap !important; }
+
+#krepling_paymentgateway .mb-0 { margin-bottom: 0 !important; }
+#krepling_paymentgateway .mb-20 { margin-bottom: 20px !important; }
+#krepling_paymentgateway .mb-21 { margin-bottom: 21px !important; }
+#krepling_paymentgateway .mt-2 { margin-top: .5rem !important; }
+#krepling_paymentgateway .mt-3 { margin-top: 1rem !important; }
+#krepling_paymentgateway .mt-4 { margin-top: 1.5rem !important; }
+#krepling_paymentgateway .mt-21 { margin-top: 21px !important; }
+#krepling_paymentgateway .rounded-lg { border-radius: .5rem !important; }
+
+/* ===== Grid subset ===== */
+#krepling_paymentgateway .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#krepling_paymentgateway .row::before,
+#krepling_paymentgateway .row::after {
+  display: table;
+  content: " ";
+}
+
+#krepling_paymentgateway .row::after {
+  clear: both;
+}
+
+#krepling_paymentgateway .col-xs-12,
+#krepling_paymentgateway .col-md-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#krepling_paymentgateway .col-xs-12 {
+  float: left;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  #krepling_paymentgateway .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+/* ===== Forms ===== */
+#krepling_paymentgateway .form-group {
+  margin-bottom: 15px;
+}
+
+#krepling_paymentgateway .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+#krepling_paymentgateway .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+#krepling_paymentgateway .form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+#krepling_paymentgateway .form-control:-ms-input-placeholder {
+  color: #999;
+}
+
+#krepling_paymentgateway .form-control::-webkit-input-placeholder {
+  color: #999;
+}
+
+#krepling_paymentgateway .form-control[disabled],
+#krepling_paymentgateway .form-control[readonly] {
+  background-color: #eee;
+  opacity: 1;
+}
+
+#krepling_paymentgateway .form-control[disabled] {
+  cursor: not-allowed;
+}
+
+#krepling_paymentgateway textarea.form-control {
+  height: auto;
+}
+
+#krepling_paymentgateway .help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+
+/* ===== Buttons ===== */
+#krepling_paymentgateway .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  user-select: none;
+}
+
+#krepling_paymentgateway .btn:focus,
+#krepling_paymentgateway .btn:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+#krepling_paymentgateway .btn:focus,
+#krepling_paymentgateway .btn:active:focus,
+#krepling_paymentgateway .btn.active:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+#krepling_paymentgateway .btn:active,
+#krepling_paymentgateway .btn.active {
+  background-image: none;
+  outline: 0;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+#krepling_paymentgateway .btn[disabled],
+#krepling_paymentgateway fieldset[disabled] .btn {
+  cursor: not-allowed;
+  opacity: .65;
+  box-shadow: none;
+}
+
+#krepling_paymentgateway .btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+#krepling_paymentgateway .btn-default:hover,
+#krepling_paymentgateway .btn-default:focus,
+#krepling_paymentgateway .btn-default:active,
+#krepling_paymentgateway .btn-default.active {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+#krepling_paymentgateway .btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+#krepling_paymentgateway .btn-primary:hover,
+#krepling_paymentgateway .btn-primary:focus,
+#krepling_paymentgateway .btn-primary:active,
+#krepling_paymentgateway .btn-primary.active {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+#krepling_paymentgateway .btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+#krepling_paymentgateway .btn-info:hover,
+#krepling_paymentgateway .btn-info:focus,
+#krepling_paymentgateway .btn-info:active,
+#krepling_paymentgateway .btn-info.active {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+/* ===== Dropdown subset ===== */
+#krepling_paymentgateway .dropdown {
+  position: relative;
+}
+
+#krepling_paymentgateway .dropdown-toggle:focus {
+  outline: 0;
+}
+
+/* ===== Tables ===== */
+#krepling_paymentgateway .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+#krepling_paymentgateway .table > thead > tr > th,
+#krepling_paymentgateway .table > tbody > tr > th,
+#krepling_paymentgateway .table > tfoot > tr > th,
+#krepling_paymentgateway .table > thead > tr > td,
+#krepling_paymentgateway .table > tbody > tr > td,
+#krepling_paymentgateway .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+#krepling_paymentgateway .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+
+#krepling_paymentgateway .table > caption + thead > tr:first-child > th,
+#krepling_paymentgateway .table > colgroup + thead > tr:first-child > th,
+#krepling_paymentgateway .table > thead:first-child > tr:first-child > th,
+#krepling_paymentgateway .table > caption + thead > tr:first-child > td,
+#krepling_paymentgateway .table > colgroup + thead > tr:first-child > td,
+#krepling_paymentgateway .table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+
+#krepling_paymentgateway .table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+#krepling_paymentgateway .table .table {
+  background-color: #fff;
+}
+
+#krepling_paymentgateway .table-xs > thead > tr > th,
+#krepling_paymentgateway .table-xs > tbody > tr > th,
+#krepling_paymentgateway .table-xs > tfoot > tr > th,
+#krepling_paymentgateway .table-xs > thead > tr > td,
+#krepling_paymentgateway .table-xs > tbody > tr > td,
+#krepling_paymentgateway .table-xs > tfoot > tr > td {
+  padding: 5px;
+}
+
+/* ===== Modal subset ===== */
+#krepling_paymentgateway .modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  outline: 0;
+}
+
+#krepling_paymentgateway .modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+
+#krepling_paymentgateway .modal-content {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+  background-clip: padding-box;
+  outline: 0;
+}
+
+#krepling_paymentgateway .modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#krepling_paymentgateway .modal-header::before,
+#krepling_paymentgateway .modal-header::after,
+#krepling_paymentgateway .modal-footer::before,
+#krepling_paymentgateway .modal-footer::after {
+  display: table;
+  content: " ";
+}
+
+#krepling_paymentgateway .modal-header::after,
+#krepling_paymentgateway .modal-footer::after {
+  clear: both;
+}
+
+#krepling_paymentgateway .modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+
+#krepling_paymentgateway .modal-body {
+  position: relative;
+  padding: 15px;
+}
+
+#krepling_paymentgateway .modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+#krepling_paymentgateway .close {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+#krepling_paymentgateway .close:hover,
+#krepling_paymentgateway .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .5;
+}
+
+@media (min-width: 768px) {
+  #krepling_paymentgateway .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+}

@@ -1,0 +1,695 @@
+/* Loading states, scrollbars, toasts, and feedback UI
+ * Auto-extracted from legacy krepling-style.css during stylesheet refactor.
+ */
+
+/* Turn off scrollbar when body element has the loading class */
+body.loading{
+  overflow: hidden;   
+}
+/* Make spinner image visible when body element has the loading class */
+body.loading .loader_overlay{
+  display: block;
+}
+
+.modal-body.editmodel-popup {
+    height: 412px;
+    overflow:auto;
+}
+.modal-body.editmodel-popup::-webkit-scrollbar {
+  width: 0px;
+}
+
+.delivery_address .panel-body{
+    max-height: 147px;
+    overflow: auto;	
+}
+
+/* width */
+#stepFourId .delivery_address .panel-body::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+#stepFourId .delivery_address .panel-body::-webkit-scrollbar-track {
+    background: #ccc;
+}
+ 
+/* Handle */
+#stepFourId .delivery_address .panel-body::-webkit-scrollbar-thumb {
+   background:var(--kp-button-color);
+}
+
+/* width */
+.modal-body.editmodel-popup::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+.modal-body.editmodel-popup::-webkit-scrollbar-track {
+   background: #ccc;
+}
+ 
+/* Handle */
+.modal-body.editmodel-popup::-webkit-scrollbar-thumb {
+ background: var(--kp-button-color);
+}
+
+#crossArrow .cross_phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:transparent;
+  margin: 20px 0px;
+}
+.cross_phone span {
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight:500;
+  color:var(--kp-button-color);
+}
+
+#crossArrow .cross_phone svg{
+	width:auto;
+}
+
+#rightArrow .paycheck_phone{
+  margin: 20px 0px;
+}
+
+#rightArrow .paycheck_phone svg{
+  width:auto;	
+  margin-bottom: 10px;
+}
+
+#rightArrow{
+	display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+}
+
+#rightArrow span {
+  font-size: 13px;
+  margin-top: 10px;
+	font-weight:500;
+	color:var(--kp-button-color);
+  margin-right: 8px;
+}
+
+#stepFourId .getcvvval:focus{
+	box-shadow: unset;
+}
+
+.add-card-svg img {
+  width: 85px;
+}
+
+.card3 .card-svg{
+	margin-bottom: 22px;
+}
+
+.card-svg .backBtn img {
+  width: auto;
+  max-width: 100%;
+  height: 37px;
+}
+
+.add-card-svg .backBtn-change img{
+  width: auto;
+  max-width: 100%;
+  height: 37px;
+}
+.iti__selected-dial-code {
+  color: var(--kp-text-color);
+}
+.iti__arrow {
+  border-top: 4px solid var(--kp-text-color);
+}
+
+.setting_mark{
+  color: var(--kp-text-color);
+}
+
+.modal-backdrop{
+  position: unset;
+}
+
+.sms_content a.changeBtnStatusId{
+	margin:unset!important;
+	display:inline-block;
+	margin-top:unset!important;
+}
+
+.sms_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 9px;	
+  margin-top: 11px;
+  color: var(--kp-text-color);
+}
+
+.sms_content strong{
+  margin-right: 5px;	
+  font-size:13px;
+}
+
+.card_design{
+  bottom: 0px;
+  position: absolute;
+  left: 0px;
+}
+
+.card_design_mobile{
+	display:none;
+}
+
+.card_exp_group{
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  right: 8px;
+  bottom: 5px;
+  flex-direction: column;	
+}
+
+.card-number-card2{
+	text-align:right;
+}
+
+.company_logo{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+  justify-content: space-between;
+  padding: 4px;
+  margin-left: 6px;	
+}
+
+.add_additional_shippingAddress {
+  margin-top: -9px;
+  margin-bottom: 20px;
+}
+
+.active_card {
+  outline: 3px solid var(--kp-border-color);
+  border-radius: 8px;
+  transition: unset;
+  outline-offset: 5px;
+}
+
+#filled-card .img-card2{
+	width:51px;
+	padding:unset;
+}
+
+span.card-margin-details {
+  margin-left: auto;
+  line-height:3;
+}
+
+svg.card_design {
+  border-radius: 0px 0px 0px 10px;
+}
+
+.common_btn:hover{
+  color: var(--kp-text-color);
+  text-decoration: underline;
+}
+
+.disabled {
+  opacity: 1 !important;
+  cursor: not-allowed !important;
+  background: var(--kp-input-color) !important;
+  pointer-events:none !important;
+}
+
+.wallet-content {
+    background-color: #EFEFEF;
+    padding: 15px;
+    border-radius: 10px;
+	cursor:pointer;
+}
+
+.wallet-login {
+    background-color: #EFEFEF;
+    padding: 15px;
+    border-radius: 10px;
+	cursor:pointer;
+}
+
+.wallet_login_alerts{
+	cursor:pointer;
+}
+
+.cardcvv {
+  width: 230px;
+  background-color: var(--kp-background-color);
+  border-radius: 26px;
+  text-align: center;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  margin-top: auto;
+  margin-left: auto;
+  position:relative;
+  top:16px;
+  border: 1px solid var(--kp-input-color);
+}
+
+.cardcvv #securitylogo {
+       right: 45px;
+    bottom: 2px;
+    z-index: 999;
+}
+
+.card_cvv_input_image{
+	position:relative;
+}
+
+.cardcvv_input {
+  padding-bottom: 30px;
+    padding-top: 30px;
+  position: relative;
+}
+
+#stepFourId .cardcvv label {
+    font-size: 14px!important;
+    color: #000;
+	margin-bottom: 10px !important;
+}
+
+.toasts {
+  text-align: left;
+  padding: 7px 0;
+  background-color: #B4FFBC;
+  border-radius: 8px;
+  max-width: 500px;
+  top: 0px;
+  position: relative;
+  margin-top: 17px;
+  border: 1px solid #61E56E;
+}
+
+
+.toast:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.toast__message {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #000;
+    font-family: 'PPRadioGrotesk-Regular';
+}
+
+.toast__content {
+    padding-left: 13px;
+}
+
+.toast__close {
+  all: unset;
+  width: 28px;
+  height: 28px;.backBtn a.back
+  right: 13px;
+  display: grid;
+  place-content: center;
+  font-size: 24px;
+  border-radius: 8px;
+  cursor:pointer;
+  position: relative;
+    vertical-align: middle;
+    right: 8px;
+    bottom: 2px;
+}
+
+.toast__close .close_btn {
+display: inline-block;
+    margin-top: 5px;
+}
+
+.cardcvv_input .card-cvv-style1{
+  width: 143px;
+  margin-top: 6px;
+}
+
+.flex_group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.undo_messsage {
+     position: absolute;
+    right: 42px;
+    top: 8px;
+    background-color: #fff;
+    padding: 2px 30px;
+    border-radius: 6px;
+    border: 1px solid #E5E5E5;
+
+}
+
+.undo_messsage span a {
+    font-size: 14px !important;
+    text-decoration: none;
+    color: #000;
+    font-family: PPRadioGrotesk-Bold !important;
+    font-weight: 600 !important;
+}
+
+
+#address_form_div .defaul_message {
+  padding: 3px 12px;
+  position: relative;
+  height: 28px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #00850D;
+  margin-right: 19px;
+  top: unset;
+  left: unset;
+  width: unset;
+  display: unset;
+  border: 1px solid #61E56E;
+  background-color: #B4FFBC;
+  bottom: 4px;
+}
+
+#address_form_div .defaul_message::before{
+  display: inline-block;
+  width: unset;
+}
+
+.carddetails-address-infolist label{
+  width: 200px!important;
+}
+
+#collapseThree{
+  padding:3px;	
+}
+
+span#cardCvvError {
+  font-size: 13px;
+}
+
+.loginHeader {
+  margin-top: unset !important;
+}
+
+/* Toster error/success message */
+
+.common_toster {
+  padding: 8px 14px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.success_toster_messsage {
+  background-color: #B4FFBC;
+}
+.success_toster_messsage .fa-times{
+  color:#02CC16;
+}
+.success_toster_messsage span {
+  color: #00850D;
+  font-size: 12px;
+  font-family: 'PPRadioGrotesk-Medium';
+}
+.warning_toster_messsage {
+  background-color: #FFFAEB;
+  border: 1px solid #FEDF89;
+}
+.warning_toster_messsage .fa-times{
+  color:#FDB022;
+}
+.warning_toster_messsage span {
+  color: #B54708;
+  font-size: 12px;
+  font-family: 'PPRadioGrotesk-Medium';
+}
+.error_toster_messsage {
+  background-color: #FFEBEB;
+  border: 1px solid #FFB2B2;
+}
+.error_toster_messsage .fa-times{
+  color:#FF6969;
+}
+.error_toster_messsage span {
+  color: #B50808;
+  font-size: 12px;
+  font-family: 'PPRadioGrotesk-Medium';
+}
+
+.success_toster_messsage p{
+  background-color: #fff;
+  padding:5px;
+  border-radius: 8px;
+  color:#000;
+}
+
+.defaul_new_card {
+  padding: 12px;
+  position: absolute;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #00850D;
+  background-color: #B4FFBC;
+  text-align: center;
+  margin: 6px;
+  right: 0;
+  bottom: 60px;
+}
+
+.deleted_card_popup{
+    margin-top: 12px;
+    margin-bottom: 9px;	
+}
+
+.login_section {
+  margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.changepassword_section.toster_msg_section {
+  margin: 20px 0px;
+}
+
+.authentication-change .fa{
+	font-size:15px;
+}
+
+.radio-new-button-animation input[type="radio"]:focus-within{
+	box-shadow: unset !important;
+}
+
+.add_additional_billingAddress{
+  margin-top: -9px;
+  margin-bottom: 10px;
+}
+#krepling_paymentgateway #copyright_section {
+  position: relative;
+  margin-top: auto;
+  z-index:9999;
+}
+
+#krepling_paymentgateway .copyright_group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;	
+  margin-top: 30px;
+}
+#krepling_paymentgateway .copyright_text h4 {
+  font-size: 14px;
+  color: #AAAAAA;
+  font-family: 'PPRadioGrotesk-Medium';
+}
+
+#krepling_paymentgateway .copyright_email h4 a {
+  color: #AAAAAA;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'PPRadioGrotesk-Medium';
+}
+
+#krepling_paymentgateway.card-1.checkout_popup .checkout_wraper {
+  position: unset !important;
+  float: unset;
+  overflow: unset;
+}
+
+.logedIn_checkout {
+  position: unset;
+}
+
+.checkout_wraper {
+  float: unset;
+  overflow: unset;
+    max-width: 610px;
+  width: 100%;
+}
+
+#krepling_paymentgateway.card-1.checkout_popup {
+   padding-bottom: unset; 
+}
+
+span.countdown {
+  font-size: 14px;
+  color: var(--kp-text-color);
+  font-family: 'PPRadioGrotesk-Regular';
+}
+
+.login_credentials{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#stepSecondId .form-group{
+  position: relative;
+}
+
+#stepSecondId img {
+  position: absolute !important;
+    right: 2px;
+    bottom: -4px;
+    width: 42px;
+}
+
+.signup_section{
+	    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.signin_section{
+margin-bottom: 16px;
+    margin-top: 9px;	
+}
+
+.sendemailotp_section,.sendphoneotp_section {
+	 margin-top: 10px;
+}
+
+.paycheck svg{
+  width: 32px!important;
+}
+
+.review_toasts {
+  background-color: #FFFAEB;
+  border: 1px solid #FEDF89;
+}
+.review_toasts .toast__message {
+  color: #B54708;
+  font-size: 12px;
+  font-family: 'PPRadioGrotesk-Medium';
+}
+
+.review_toasts .toast__close{
+  color: #FDB022;
+}
+.review_toasts .undo_messsage{
+  right: 35px;
+  padding: 5px 8px 4px 8px;
+  top: 6px;
+}
+
+#review_device_reset_password a{
+  color: #B54708;
+  font-size: 12px !important;
+}
+
+.phone_tooltip {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    bottom: 2px;
+    cursor: pointer;
+}
+
+.phone_tooltip .phone_tooltiptext {
+	  visibility: hidden;
+    width: 235px;
+    background-color: var(--kp-input-color);  
+    color: var(--kp-text-color);
+    border-radius: 6px;
+    padding: 10px 16px;
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    margin-right: -17px;
+    margin-top: 8px;
+    font-family: 'PPRadioGrotesk-Regular';
+    font-size: 13px;
+    text-align: left
+}
+
+.phone_tooltip:hover .phone_tooltiptext {
+	visibility: visible;
+}
+
+#stepSecondId{
+	position:relative;
+	z-index:9;
+}
+
+#krepling_paymentgateway #registerSearchAddress{
+margin-bottom: 13px !important;
+}
+
+.save_payment_details_section{
+	margin-top:20px;
+}
+
+.qnt_back{
+position: relative;
+top: 1px;
+}
+
+.common_toster span .fa{
+	font-size:15px;
+}
+
+.pac-matched{
+  color: var(--kp-button-color) !important;
+}
+
+input#searchCurrency {
+    border-radius: unset !important;
+}
+
+.card-info-1 input{
+  padding-bottom:3px!important;
+}
+
+input.login-alert-sms {
+  accent-color: var(--kp-button-color) !important;
+}
+
+#krepling_paymentgateway .copyright_email h4 a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#krepling_paymentgateway .copyright_email_icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+#krepling_paymentgateway .copyright_email_icon svg {
+  width: 18px;
+  height: 14px;
+  flex: 0 0 auto;
+}
